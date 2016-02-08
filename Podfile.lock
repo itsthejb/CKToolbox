@@ -3,6 +3,7 @@ PODS:
     - CKToolbox/ChangesetBuilder
     - CKToolbox/RemoveAll
     - CKToolbox/TableViewDataSource
+    - CKToolbox/VisualEffect
     - ComponentKit (~> 0.13)
   - CKToolbox/ChangesetBuilder (0.0.1):
     - ComponentKit (~> 0.13)
@@ -10,6 +11,8 @@ PODS:
     - ComponentKit (~> 0.13)
   - CKToolbox/TableViewDataSource (0.0.1):
     - CKToolbox/RemoveAll
+    - ComponentKit (~> 0.13)
+  - CKToolbox/VisualEffect (0.0.1):
     - ComponentKit (~> 0.13)
   - ComponentKit (0.14)
   - ComponentSnapshotTestCase (0.14):
@@ -35,7 +38,7 @@ EXTERNAL SOURCES:
     :podspec: Support/ComponentSnapshotTestCase.podspec
 
 SPEC CHECKSUMS:
-  CKToolbox: fa2934f256a76af02d6d711d90b3884749156ad9
+  CKToolbox: dcaf2604a3bb080a752149f2f27265158ee64df0
   ComponentKit: 11d9177b5e9940c456e7486d8f5a25c26d9ca5f2
   ComponentSnapshotTestCase: 50f198a6433ebe8047c8b20a79ff63da88d36b12
   Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe

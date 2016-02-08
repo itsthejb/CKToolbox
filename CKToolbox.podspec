@@ -15,6 +15,7 @@ Pod::Spec.new do |s|
   	sp.dependency 'CKToolbox/ChangesetBuilder'
     sp.dependency 'CKToolbox/TableViewDataSource'
     sp.dependency 'CKToolbox/RemoveAll'
+    sp.dependency 'CKToolbox/VisualEffect'
 	end
 
 	s.subspec 'ChangesetBuilder' do |sp|
@@ -28,5 +29,9 @@ Pod::Spec.new do |s|
 
   s.subspec 'RemoveAll' do |sp|
     sp.source_files = 'Modules/RemoveAll/*.{h,m,mm}'
+  end
+
+  s.subspec 'VisualEffect' do |sp|
+    sp.source_files = 'Modules/VisualEffect/*.{h,m,mm}'
   end
 end
