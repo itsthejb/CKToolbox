@@ -1,0 +1,882 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03E27A3FB119AFB1ABDF77F2 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B6FE6FD99E2A45D574937C /* libPods-Tests.a */; };
+		2C370C71748D1557DAFFDF6E /* libPods-CKToolbox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9AC714F438E2F7B4F2C3127 /* libPods-CKToolbox.a */; };
+		3415476D34AC20E382E19A09 /* libPods-TableViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0460046A52B556B9A83BF9E /* libPods-TableViewDemo.a */; };
+		491565C61C5E1FD800DB7304 /* AnimalComponentController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 491565C41C5E1F8900DB7304 /* AnimalComponentController.mm */; };
+		4936ABD01C67CF8A003704EB /* Sumatran-Tiger-Hero.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4936ABCF1C67CF8A003704EB /* Sumatran-Tiger-Hero.jpg */; };
+		495E8A681C5135E000789C25 /* CKCollectionViewDataSourceChangesetBuilder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 495E8A671C5135E000789C25 /* CKCollectionViewDataSourceChangesetBuilder.mm */; };
+		495E8A7C1C51379200789C25 /* CKTransactionalComponentDataSourceChangesetDSLBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 495E8A7B1C51379200789C25 /* CKTransactionalComponentDataSourceChangesetDSLBuilderTests.m */; };
+		4963DB121C51541B00875353 /* CKCollectionViewTransactionalDataSource+RemoveAll.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4963DB111C51541B00875353 /* CKCollectionViewTransactionalDataSource+RemoveAll.mm */; };
+		496F653D1C5143C800DD1E07 /* CKCollectionViewTransactionalDataSource+AbstractInterface.mm in Sources */ = {isa = PBXBuildFile; fileRef = 496F651E1C5143C800DD1E07 /* CKCollectionViewTransactionalDataSource+AbstractInterface.mm */; };
+		496F653E1C5143C800DD1E07 /* CKTableViewDataSourceCell.mm in Sources */ = {isa = PBXBuildFile; fileRef = 496F65201C5143C800DD1E07 /* CKTableViewDataSourceCell.mm */; };
+		496F653F1C5143C800DD1E07 /* CKTableViewTransactionalDataSource.mm in Sources */ = {isa = PBXBuildFile; fileRef = 496F65231C5143C800DD1E07 /* CKTableViewTransactionalDataSource.mm */; };
+		496F65401C5143C800DD1E07 /* CKTableViewTransactionalDataSourceCellConfiguration.mm in Sources */ = {isa = PBXBuildFile; fileRef = 496F65261C5143C800DD1E07 /* CKTableViewTransactionalDataSourceCellConfiguration.mm */; };
+		496F65621C51444400DD1E07 /* AnimalComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = 496F652A1C5143C800DD1E07 /* AnimalComponent.mm */; };
+		496F65631C51444400DD1E07 /* AnimalInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 496F652C1C5143C800DD1E07 /* AnimalInfo.m */; };
+		496F65641C51444400DD1E07 /* AnimalOverlayComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = 496F652E1C5143C800DD1E07 /* AnimalOverlayComponent.mm */; };
+		496F65651C51444400DD1E07 /* AnimalInfoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 496F65301C5143C800DD1E07 /* AnimalInfoAppDelegate.m */; };
+		496F65661C51444400DD1E07 /* AnimalInfoTableViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 496F653B1C5143C800DD1E07 /* AnimalInfoTableViewController.mm */; };
+		496F65671C51445000DD1E07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496F65311C5143C800DD1E07 /* LaunchScreen.storyboard */; };
+		496F65681C51445000DD1E07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496F65331C5143C800DD1E07 /* Main.storyboard */; };
+		496F65691C51445300DD1E07 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 496F65351C5143C800DD1E07 /* Images.xcassets */; };
+		496F656B1C5148F100DD1E07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 496F65371C5143C800DD1E07 /* main.m */; };
+		496F656C1C51496800DD1E07 /* Animals.plist in Resources */ = {isa = PBXBuildFile; fileRef = 496F65391C5143C800DD1E07 /* Animals.plist */; };
+		496F65761C5149E800DD1E07 /* CKTableViewTransactionalComponentDataSourceSpecs.mm in Sources */ = {isa = PBXBuildFile; fileRef = 496F65721C5149E800DD1E07 /* CKTableViewTransactionalComponentDataSourceSpecs.mm */; };
+		496F65781C5149E800DD1E07 /* CKTableViewTransactionalDataSourceTestComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = 496F65751C5149E800DD1E07 /* CKTableViewTransactionalDataSourceTestComponent.mm */; };
+		499B287B1C5D8647008BE497 /* AnimalCellConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 499B28791C5D858C008BE497 /* AnimalCellConfiguration.m */; };
+		49C027441C5E931700830E2A /* CKTableViewTransactionalDataSourceTestComponentController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 49C027431C5E931700830E2A /* CKTableViewTransactionalDataSourceTestComponentController.mm */; };
+		49C027481C5E944F00830E2A /* CKTestCellConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C027471C5E944F00830E2A /* CKTestCellConfiguration.m */; };
+		49EDB0D71C5156F8005B5493 /* CKCollectionViewTransactionalDataSourceRemoveAllTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 49EDB0D61C5156F8005B5493 /* CKCollectionViewTransactionalDataSourceRemoveAllTests.mm */; };
+		49EDB0DE1C51696E005B5493 /* CKTableViewTransactionalDataSource+RemoveAll.mm in Sources */ = {isa = PBXBuildFile; fileRef = 49EDB0DD1C51696E005B5493 /* CKTableViewTransactionalDataSource+RemoveAll.mm */; };
+		49EDB0E11C516AC5005B5493 /* CKTransactionalComponentDataSourceState+RemoveAll.mm in Sources */ = {isa = PBXBuildFile; fileRef = 49EDB0E01C516AC5005B5493 /* CKTransactionalComponentDataSourceState+RemoveAll.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		495E8A571C51341200789C25 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04ACA37DF9E8D23A822F9A51 /* Pods-CKToolbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKToolbox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CKToolbox/Pods-CKToolbox.debug.xcconfig"; sourceTree = "<group>"; };
+		26FA351C2FF022BC1DDB1692 /* Pods-TableViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewDemo/Pods-TableViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		27910EB3302964A94ECFFF55 /* Pods-CKToolbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKToolbox.release.xcconfig"; path = "Pods/Target Support Files/Pods-CKToolbox/Pods-CKToolbox.release.xcconfig"; sourceTree = "<group>"; };
+		491565C31C5E1F8900DB7304 /* AnimalComponentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalComponentController.h; sourceTree = "<group>"; };
+		491565C41C5E1F8900DB7304 /* AnimalComponentController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AnimalComponentController.mm; sourceTree = "<group>"; };
+		491565C71C5E204300DB7304 /* AnimalComponentResponder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimalComponentResponder.h; sourceTree = "<group>"; };
+		4936ABCF1C67CF8A003704EB /* Sumatran-Tiger-Hero.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Sumatran-Tiger-Hero.jpg"; path = "Modules/TableViewDataSource/Demo/Images.xcassets/Images/Sumatran-Tiger-Hero.imageset/Sumatran-Tiger-Hero.jpg"; sourceTree = SOURCE_ROOT; };
+		495E8A591C51341200789C25 /* libCKToolbox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCKToolbox.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		495E8A661C5135E000789C25 /* CKCollectionViewDataSourceChangesetBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKCollectionViewDataSourceChangesetBuilder.h; sourceTree = "<group>"; };
+		495E8A671C5135E000789C25 /* CKCollectionViewDataSourceChangesetBuilder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CKCollectionViewDataSourceChangesetBuilder.mm; sourceTree = "<group>"; };
+		495E8A691C51360700789C25 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		495E8A6E1C51361E00789C25 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		495E8A721C51361E00789C25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		495E8A791C51377000789C25 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		495E8A7A1C51377000789C25 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		495E8A7B1C51379200789C25 /* CKTransactionalComponentDataSourceChangesetDSLBuilderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKTransactionalComponentDataSourceChangesetDSLBuilderTests.m; sourceTree = "<group>"; };
+		4963DB101C51541B00875353 /* CKCollectionViewTransactionalDataSource+RemoveAll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CKCollectionViewTransactionalDataSource+RemoveAll.h"; sourceTree = "<group>"; };
+		4963DB111C51541B00875353 /* CKCollectionViewTransactionalDataSource+RemoveAll.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "CKCollectionViewTransactionalDataSource+RemoveAll.mm"; sourceTree = "<group>"; };
+		4963DB161C51561C00875353 /* CKTransactionalComponentDataSourceRemoveAll.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CKTransactionalComponentDataSourceRemoveAll.h; sourceTree = "<group>"; };
+		496F651D1C5143C800DD1E07 /* CKCollectionViewTransactionalDataSource+AbstractInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CKCollectionViewTransactionalDataSource+AbstractInterface.h"; sourceTree = "<group>"; };
+		496F651E1C5143C800DD1E07 /* CKCollectionViewTransactionalDataSource+AbstractInterface.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "CKCollectionViewTransactionalDataSource+AbstractInterface.mm"; sourceTree = "<group>"; };
+		496F651F1C5143C800DD1E07 /* CKTableViewDataSourceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKTableViewDataSourceCell.h; sourceTree = "<group>"; };
+		496F65201C5143C800DD1E07 /* CKTableViewDataSourceCell.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CKTableViewDataSourceCell.mm; sourceTree = "<group>"; };
+		496F65211C5143C800DD1E07 /* CKTableViewSupplementaryDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKTableViewSupplementaryDataSource.h; sourceTree = "<group>"; };
+		496F65221C5143C800DD1E07 /* CKTableViewTransactionalDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKTableViewTransactionalDataSource.h; sourceTree = "<group>"; };
+		496F65231C5143C800DD1E07 /* CKTableViewTransactionalDataSource.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CKTableViewTransactionalDataSource.mm; sourceTree = "<group>"; };
+		496F65251C5143C800DD1E07 /* CKTableViewTransactionalDataSourceCellConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKTableViewTransactionalDataSourceCellConfiguration.h; sourceTree = "<group>"; };
+		496F65261C5143C800DD1E07 /* CKTableViewTransactionalDataSourceCellConfiguration.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CKTableViewTransactionalDataSourceCellConfiguration.mm; sourceTree = "<group>"; };
+		496F65271C5143C800DD1E07 /* CKTransactionalDataSourceInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKTransactionalDataSourceInterface.h; sourceTree = "<group>"; };
+		496F65291C5143C800DD1E07 /* AnimalComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalComponent.h; sourceTree = "<group>"; };
+		496F652A1C5143C800DD1E07 /* AnimalComponent.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AnimalComponent.mm; sourceTree = "<group>"; };
+		496F652B1C5143C800DD1E07 /* AnimalInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalInfo.h; sourceTree = "<group>"; };
+		496F652C1C5143C800DD1E07 /* AnimalInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalInfo.m; sourceTree = "<group>"; };
+		496F652D1C5143C800DD1E07 /* AnimalOverlayComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalOverlayComponent.h; sourceTree = "<group>"; };
+		496F652E1C5143C800DD1E07 /* AnimalOverlayComponent.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AnimalOverlayComponent.mm; sourceTree = "<group>"; };
+		496F652F1C5143C800DD1E07 /* AnimalInfoAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalInfoAppDelegate.h; sourceTree = "<group>"; };
+		496F65301C5143C800DD1E07 /* AnimalInfoAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalInfoAppDelegate.m; sourceTree = "<group>"; };
+		496F65321C5143C800DD1E07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		496F65341C5143C800DD1E07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		496F65351C5143C800DD1E07 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
+		496F65361C5143C800DD1E07 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		496F65371C5143C800DD1E07 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		496F65391C5143C800DD1E07 /* Animals.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Animals.plist; sourceTree = "<group>"; };
+		496F653A1C5143C800DD1E07 /* AnimalInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalInfoTableViewController.h; sourceTree = "<group>"; };
+		496F653B1C5143C800DD1E07 /* AnimalInfoTableViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AnimalInfoTableViewController.mm; sourceTree = "<group>"; };
+		496F654B1C51442400DD1E07 /* TableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		496F656A1C5146B200DD1E07 /* CKToolbox.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = CKToolbox.podspec; sourceTree = "<group>"; };
+		496F65721C5149E800DD1E07 /* CKTableViewTransactionalComponentDataSourceSpecs.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CKTableViewTransactionalComponentDataSourceSpecs.mm; sourceTree = "<group>"; };
+		496F65741C5149E800DD1E07 /* CKTableViewTransactionalDataSourceTestComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKTableViewTransactionalDataSourceTestComponent.h; sourceTree = "<group>"; };
+		496F65751C5149E800DD1E07 /* CKTableViewTransactionalDataSourceTestComponent.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CKTableViewTransactionalDataSourceTestComponent.mm; sourceTree = "<group>"; };
+		499B28781C5D858C008BE497 /* AnimalCellConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalCellConfiguration.h; sourceTree = "<group>"; };
+		499B28791C5D858C008BE497 /* AnimalCellConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalCellConfiguration.m; sourceTree = "<group>"; };
+		49C027421C5E931700830E2A /* CKTableViewTransactionalDataSourceTestComponentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKTableViewTransactionalDataSourceTestComponentController.h; sourceTree = "<group>"; };
+		49C027431C5E931700830E2A /* CKTableViewTransactionalDataSourceTestComponentController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CKTableViewTransactionalDataSourceTestComponentController.mm; sourceTree = "<group>"; };
+		49C027461C5E944F00830E2A /* CKTestCellConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKTestCellConfiguration.h; sourceTree = "<group>"; };
+		49C027471C5E944F00830E2A /* CKTestCellConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKTestCellConfiguration.m; sourceTree = "<group>"; };
+		49EDB0D61C5156F8005B5493 /* CKCollectionViewTransactionalDataSourceRemoveAllTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CKCollectionViewTransactionalDataSourceRemoveAllTests.mm; sourceTree = "<group>"; };
+		49EDB0DC1C51696E005B5493 /* CKTableViewTransactionalDataSource+RemoveAll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CKTableViewTransactionalDataSource+RemoveAll.h"; sourceTree = "<group>"; };
+		49EDB0DD1C51696E005B5493 /* CKTableViewTransactionalDataSource+RemoveAll.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "CKTableViewTransactionalDataSource+RemoveAll.mm"; sourceTree = "<group>"; };
+		49EDB0DF1C516AC5005B5493 /* CKTransactionalComponentDataSourceState+RemoveAll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CKTransactionalComponentDataSourceState+RemoveAll.h"; sourceTree = "<group>"; };
+		49EDB0E01C516AC5005B5493 /* CKTransactionalComponentDataSourceState+RemoveAll.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "CKTransactionalComponentDataSourceState+RemoveAll.mm"; sourceTree = "<group>"; };
+		53B6FE6FD99E2A45D574937C /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0460046A52B556B9A83BF9E /* libPods-TableViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TableViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9AC714F438E2F7B4F2C3127 /* libPods-CKToolbox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CKToolbox.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D35B67AEDE26EF5FBBA90C6E /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF5CE25354C1D5A6B7A48965 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F9E8FA75642AD24A24E6A4A7 /* Pods-TableViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewDemo/Pods-TableViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		495E8A561C51341200789C25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C370C71748D1557DAFFDF6E /* libPods-CKToolbox.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		495E8A6B1C51361E00789C25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E27A3FB119AFB1ABDF77F2 /* libPods-Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496F65481C51442400DD1E07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3415476D34AC20E382E19A09 /* libPods-TableViewDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02D8C5B0073953F4256BF2EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9AC714F438E2F7B4F2C3127 /* libPods-CKToolbox.a */,
+				B0460046A52B556B9A83BF9E /* libPods-TableViewDemo.a */,
+				53B6FE6FD99E2A45D574937C /* libPods-Tests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		495E8A501C51341200789C25 = {
+			isa = PBXGroup;
+			children = (
+				496F65711C5149B900DD1E07 /* Modules */,
+				495E8A6F1C51361E00789C25 /* Tests */,
+				495E8A5A1C51341200789C25 /* Products */,
+				75244B7151770B5771E829CC /* Pods */,
+				02D8C5B0073953F4256BF2EC /* Frameworks */,
+				495E8A791C51377000789C25 /* LICENSE */,
+				495E8A7A1C51377000789C25 /* README.md */,
+			);
+			sourceTree = "<group>";
+		};
+		495E8A5A1C51341200789C25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				495E8A591C51341200789C25 /* libCKToolbox.a */,
+				495E8A6E1C51361E00789C25 /* Tests.xctest */,
+				496F654B1C51442400DD1E07 /* TableViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		495E8A651C5135E000789C25 /* ChangesetBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				495E8A661C5135E000789C25 /* CKCollectionViewDataSourceChangesetBuilder.h */,
+				495E8A671C5135E000789C25 /* CKCollectionViewDataSourceChangesetBuilder.mm */,
+			);
+			name = ChangesetBuilder;
+			path = Modules/ChangesetBuilder;
+			sourceTree = "<group>";
+		};
+		495E8A6F1C51361E00789C25 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4963DB131C51558700875353 /* TableViewDataSource */,
+				4963DB141C51559000875353 /* ChangesetBuilder */,
+				4963DB151C51559800875353 /* RemoveAll */,
+				495E8A721C51361E00789C25 /* Info.plist */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		4963DB0F1C5153A100875353 /* RemoveAll */ = {
+			isa = PBXGroup;
+			children = (
+				4963DB161C51561C00875353 /* CKTransactionalComponentDataSourceRemoveAll.h */,
+				4963DB101C51541B00875353 /* CKCollectionViewTransactionalDataSource+RemoveAll.h */,
+				4963DB111C51541B00875353 /* CKCollectionViewTransactionalDataSource+RemoveAll.mm */,
+				49EDB0DF1C516AC5005B5493 /* CKTransactionalComponentDataSourceState+RemoveAll.h */,
+				49EDB0E01C516AC5005B5493 /* CKTransactionalComponentDataSourceState+RemoveAll.mm */,
+			);
+			name = RemoveAll;
+			path = Modules/RemoveAll;
+			sourceTree = "<group>";
+		};
+		4963DB131C51558700875353 /* TableViewDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				496F65721C5149E800DD1E07 /* CKTableViewTransactionalComponentDataSourceSpecs.mm */,
+				49C027451C5E932700830E2A /* Helpers */,
+			);
+			name = TableViewDataSource;
+			sourceTree = "<group>";
+		};
+		4963DB141C51559000875353 /* ChangesetBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				495E8A7B1C51379200789C25 /* CKTransactionalComponentDataSourceChangesetDSLBuilderTests.m */,
+			);
+			name = ChangesetBuilder;
+			sourceTree = "<group>";
+		};
+		4963DB151C51559800875353 /* RemoveAll */ = {
+			isa = PBXGroup;
+			children = (
+				49EDB0D61C5156F8005B5493 /* CKCollectionViewTransactionalDataSourceRemoveAllTests.mm */,
+				4936ABCF1C67CF8A003704EB /* Sumatran-Tiger-Hero.jpg */,
+			);
+			name = RemoveAll;
+			sourceTree = "<group>";
+		};
+		496F651C1C5143C800DD1E07 /* TableViewDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				496F651D1C5143C800DD1E07 /* CKCollectionViewTransactionalDataSource+AbstractInterface.h */,
+				496F651E1C5143C800DD1E07 /* CKCollectionViewTransactionalDataSource+AbstractInterface.mm */,
+				496F651F1C5143C800DD1E07 /* CKTableViewDataSourceCell.h */,
+				496F65201C5143C800DD1E07 /* CKTableViewDataSourceCell.mm */,
+				496F65211C5143C800DD1E07 /* CKTableViewSupplementaryDataSource.h */,
+				496F65221C5143C800DD1E07 /* CKTableViewTransactionalDataSource.h */,
+				496F65231C5143C800DD1E07 /* CKTableViewTransactionalDataSource.mm */,
+				496F65251C5143C800DD1E07 /* CKTableViewTransactionalDataSourceCellConfiguration.h */,
+				496F65261C5143C800DD1E07 /* CKTableViewTransactionalDataSourceCellConfiguration.mm */,
+				496F65271C5143C800DD1E07 /* CKTransactionalDataSourceInterface.h */,
+				49EDB0DC1C51696E005B5493 /* CKTableViewTransactionalDataSource+RemoveAll.h */,
+				49EDB0DD1C51696E005B5493 /* CKTableViewTransactionalDataSource+RemoveAll.mm */,
+				496F65281C5143C800DD1E07 /* Demo */,
+			);
+			name = TableViewDataSource;
+			path = Modules/TableViewDataSource;
+			sourceTree = "<group>";
+		};
+		496F65281C5143C800DD1E07 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				496F656D1C51497B00DD1E07 /* Controllers */,
+				496F656E1C51498700DD1E07 /* Components */,
+				496F656F1C51498E00DD1E07 /* Model */,
+				496F65701C51499400DD1E07 /* Supporting */,
+				496F65381C5143C800DD1E07 /* Resources */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		496F65381C5143C800DD1E07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				496F65311C5143C800DD1E07 /* LaunchScreen.storyboard */,
+				496F65331C5143C800DD1E07 /* Main.storyboard */,
+				496F65351C5143C800DD1E07 /* Images.xcassets */,
+				496F65391C5143C800DD1E07 /* Animals.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		496F656D1C51497B00DD1E07 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				496F653A1C5143C800DD1E07 /* AnimalInfoTableViewController.h */,
+				496F653B1C5143C800DD1E07 /* AnimalInfoTableViewController.mm */,
+				496F652F1C5143C800DD1E07 /* AnimalInfoAppDelegate.h */,
+				496F65301C5143C800DD1E07 /* AnimalInfoAppDelegate.m */,
+				499B28781C5D858C008BE497 /* AnimalCellConfiguration.h */,
+				499B28791C5D858C008BE497 /* AnimalCellConfiguration.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		496F656E1C51498700DD1E07 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				496F65291C5143C800DD1E07 /* AnimalComponent.h */,
+				496F652A1C5143C800DD1E07 /* AnimalComponent.mm */,
+				491565C71C5E204300DB7304 /* AnimalComponentResponder.h */,
+				491565C31C5E1F8900DB7304 /* AnimalComponentController.h */,
+				491565C41C5E1F8900DB7304 /* AnimalComponentController.mm */,
+				496F652D1C5143C800DD1E07 /* AnimalOverlayComponent.h */,
+				496F652E1C5143C800DD1E07 /* AnimalOverlayComponent.mm */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		496F656F1C51498E00DD1E07 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				496F652B1C5143C800DD1E07 /* AnimalInfo.h */,
+				496F652C1C5143C800DD1E07 /* AnimalInfo.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		496F65701C51499400DD1E07 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				496F65361C5143C800DD1E07 /* Info.plist */,
+				496F65371C5143C800DD1E07 /* main.m */,
+			);
+			name = Supporting;
+			sourceTree = "<group>";
+		};
+		496F65711C5149B900DD1E07 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				496F651C1C5143C800DD1E07 /* TableViewDataSource */,
+				495E8A651C5135E000789C25 /* ChangesetBuilder */,
+				4963DB0F1C5153A100875353 /* RemoveAll */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		49C027451C5E932700830E2A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				496F65741C5149E800DD1E07 /* CKTableViewTransactionalDataSourceTestComponent.h */,
+				496F65751C5149E800DD1E07 /* CKTableViewTransactionalDataSourceTestComponent.mm */,
+				49C027421C5E931700830E2A /* CKTableViewTransactionalDataSourceTestComponentController.h */,
+				49C027431C5E931700830E2A /* CKTableViewTransactionalDataSourceTestComponentController.mm */,
+				49C027461C5E944F00830E2A /* CKTestCellConfiguration.h */,
+				49C027471C5E944F00830E2A /* CKTestCellConfiguration.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		75244B7151770B5771E829CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				495E8A691C51360700789C25 /* Podfile */,
+				496F656A1C5146B200DD1E07 /* CKToolbox.podspec */,
+				04ACA37DF9E8D23A822F9A51 /* Pods-CKToolbox.debug.xcconfig */,
+				27910EB3302964A94ECFFF55 /* Pods-CKToolbox.release.xcconfig */,
+				26FA351C2FF022BC1DDB1692 /* Pods-TableViewDemo.debug.xcconfig */,
+				F9E8FA75642AD24A24E6A4A7 /* Pods-TableViewDemo.release.xcconfig */,
+				D35B67AEDE26EF5FBBA90C6E /* Pods-Tests.debug.xcconfig */,
+				EF5CE25354C1D5A6B7A48965 /* Pods-Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		495E8A581C51341200789C25 /* CKToolbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 495E8A621C51341200789C25 /* Build configuration list for PBXNativeTarget "CKToolbox" */;
+			buildPhases = (
+				7849365D795570D352AD4E24 /* Check Pods Manifest.lock */,
+				495E8A551C51341200789C25 /* Sources */,
+				495E8A561C51341200789C25 /* Frameworks */,
+				495E8A571C51341200789C25 /* CopyFiles */,
+				C987EDE4F00F213B1AB222FA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CKToolbox;
+			productName = CKToolbox;
+			productReference = 495E8A591C51341200789C25 /* libCKToolbox.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		495E8A6D1C51361E00789C25 /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 495E8A761C51361E00789C25 /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				46D75A683E757F97F8BA3F4E /* Check Pods Manifest.lock */,
+				495E8A6A1C51361E00789C25 /* Sources */,
+				495E8A6B1C51361E00789C25 /* Frameworks */,
+				495E8A6C1C51361E00789C25 /* Resources */,
+				2756560F4F863E93190C21C2 /* Embed Pods Frameworks */,
+				4ADB00287F65994F15470712 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tests;
+			productName = Tests;
+			productReference = 495E8A6E1C51361E00789C25 /* Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		496F654A1C51442400DD1E07 /* TableViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 496F655F1C51442400DD1E07 /* Build configuration list for PBXNativeTarget "TableViewDemo" */;
+			buildPhases = (
+				D235A5FA7F31AF1A1C127643 /* Check Pods Manifest.lock */,
+				496F65471C51442400DD1E07 /* Sources */,
+				496F65481C51442400DD1E07 /* Frameworks */,
+				496F65491C51442400DD1E07 /* Resources */,
+				E6190305043BFB93C115EE0D /* Embed Pods Frameworks */,
+				F1304A4395C16B64C8D5CD79 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableViewDemo;
+			productName = TableViewDemo;
+			productReference = 496F654B1C51442400DD1E07 /* TableViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		495E8A511C51341200789C25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CK;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jonathan Crooke";
+				TargetAttributes = {
+					495E8A581C51341200789C25 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					495E8A6D1C51361E00789C25 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					496F654A1C51442400DD1E07 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 495E8A541C51341200789C25 /* Build configuration list for PBXProject "CKToolbox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 495E8A501C51341200789C25;
+			productRefGroup = 495E8A5A1C51341200789C25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				495E8A581C51341200789C25 /* CKToolbox */,
+				496F654A1C51442400DD1E07 /* TableViewDemo */,
+				495E8A6D1C51361E00789C25 /* Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		495E8A6C1C51361E00789C25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4936ABD01C67CF8A003704EB /* Sumatran-Tiger-Hero.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496F65491C51442400DD1E07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496F656C1C51496800DD1E07 /* Animals.plist in Resources */,
+				496F65691C51445300DD1E07 /* Images.xcassets in Resources */,
+				496F65671C51445000DD1E07 /* LaunchScreen.storyboard in Resources */,
+				496F65681C51445000DD1E07 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2756560F4F863E93190C21C2 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46D75A683E757F97F8BA3F4E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4ADB00287F65994F15470712 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7849365D795570D352AD4E24 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C987EDE4F00F213B1AB222FA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CKToolbox/Pods-CKToolbox-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D235A5FA7F31AF1A1C127643 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E6190305043BFB93C115EE0D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableViewDemo/Pods-TableViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1304A4395C16B64C8D5CD79 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableViewDemo/Pods-TableViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		495E8A551C51341200789C25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49EDB0E11C516AC5005B5493 /* CKTransactionalComponentDataSourceState+RemoveAll.mm in Sources */,
+				496F653F1C5143C800DD1E07 /* CKTableViewTransactionalDataSource.mm in Sources */,
+				4963DB121C51541B00875353 /* CKCollectionViewTransactionalDataSource+RemoveAll.mm in Sources */,
+				496F653E1C5143C800DD1E07 /* CKTableViewDataSourceCell.mm in Sources */,
+				496F65401C5143C800DD1E07 /* CKTableViewTransactionalDataSourceCellConfiguration.mm in Sources */,
+				495E8A681C5135E000789C25 /* CKCollectionViewDataSourceChangesetBuilder.mm in Sources */,
+				49EDB0DE1C51696E005B5493 /* CKTableViewTransactionalDataSource+RemoveAll.mm in Sources */,
+				496F653D1C5143C800DD1E07 /* CKCollectionViewTransactionalDataSource+AbstractInterface.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		495E8A6A1C51361E00789C25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496F65781C5149E800DD1E07 /* CKTableViewTransactionalDataSourceTestComponent.mm in Sources */,
+				495E8A7C1C51379200789C25 /* CKTransactionalComponentDataSourceChangesetDSLBuilderTests.m in Sources */,
+				49C027481C5E944F00830E2A /* CKTestCellConfiguration.m in Sources */,
+				49C027441C5E931700830E2A /* CKTableViewTransactionalDataSourceTestComponentController.mm in Sources */,
+				496F65761C5149E800DD1E07 /* CKTableViewTransactionalComponentDataSourceSpecs.mm in Sources */,
+				49EDB0D71C5156F8005B5493 /* CKCollectionViewTransactionalDataSourceRemoveAllTests.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496F65471C51442400DD1E07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496F65651C51444400DD1E07 /* AnimalInfoAppDelegate.m in Sources */,
+				496F65621C51444400DD1E07 /* AnimalComponent.mm in Sources */,
+				496F65661C51444400DD1E07 /* AnimalInfoTableViewController.mm in Sources */,
+				496F65631C51444400DD1E07 /* AnimalInfo.m in Sources */,
+				496F656B1C5148F100DD1E07 /* main.m in Sources */,
+				499B287B1C5D8647008BE497 /* AnimalCellConfiguration.m in Sources */,
+				496F65641C51444400DD1E07 /* AnimalOverlayComponent.mm in Sources */,
+				491565C61C5E1FD800DB7304 /* AnimalComponentController.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		496F65311C5143C800DD1E07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				496F65321C5143C800DD1E07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		496F65331C5143C800DD1E07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				496F65341C5143C800DD1E07 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		495E8A601C51341200789C25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		495E8A611C51341200789C25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		495E8A631C51341200789C25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04ACA37DF9E8D23A822F9A51 /* Pods-CKToolbox.debug.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		495E8A641C51341200789C25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27910EB3302964A94ECFFF55 /* Pods-CKToolbox.release.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		495E8A771C51361E00789C25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D35B67AEDE26EF5FBBA90C6E /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathan.crooke.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		495E8A781C51361E00789C25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF5CE25354C1D5A6B7A48965 /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathan.crooke.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		496F65601C51442400DD1E07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26FA351C2FF022BC1DDB1692 /* Pods-TableViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Modules/TableViewDataSource/Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathan.crooke.CKToolbox.TableViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		496F65611C51442400DD1E07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9E8FA75642AD24A24E6A4A7 /* Pods-TableViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Modules/TableViewDataSource/Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathan.crooke.CKToolbox.TableViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		495E8A541C51341200789C25 /* Build configuration list for PBXProject "CKToolbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				495E8A601C51341200789C25 /* Debug */,
+				495E8A611C51341200789C25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		495E8A621C51341200789C25 /* Build configuration list for PBXNativeTarget "CKToolbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				495E8A631C51341200789C25 /* Debug */,
+				495E8A641C51341200789C25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		495E8A761C51361E00789C25 /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				495E8A771C51361E00789C25 /* Debug */,
+				495E8A781C51361E00789C25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		496F655F1C51442400DD1E07 /* Build configuration list for PBXNativeTarget "TableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496F65601C51442400DD1E07 /* Debug */,
+				496F65611C51442400DD1E07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 495E8A511C51341200789C25 /* Project object */;
+}
