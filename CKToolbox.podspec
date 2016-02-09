@@ -1,15 +1,15 @@
 Pod::Spec.new do |s|
   s.name          = 'CKToolbox'
-  s.version       = '0.0.1'
+  s.version       = '0.0.9'
   s.summary       = 'A toolbox library for ComponentKit'
   s.description   = 'A suite of helpers and features for working with Facebook ComponentKit'
   s.homepage      = 'https://github.com/itsthejb/CKToolbox'
   s.license       = { :type => 'MIT', :file => 'LICENSE' }
-  s.author        = { 'Jonathan Crooke' => 'jon.crooke@gmail.com' }
+  s.authors       = { 'Jonathan Crooke' => 'jon.crooke@gmail.com' }
   s.source        = { :git => 'https://github.com/itsthejb/CKToolbox.git', :tag => 'v' + s.version.to_s }
   s.ios.deployment_target = '7.0'
   s.frameworks    = 'UIKit'
-  s.dependency 'ComponentKit', '~> 0.13'
+  s.dependency 'ComponentKit', '0.14'
 
 	s.subspec 'All' do |sp|
   	sp.dependency 'CKToolbox/ChangesetBuilder'
