@@ -1,5 +1,8 @@
 [![BuildMaster](https://travis-ci.org/itsthejb/CKToolbox.svg?branch=master)](https://travis-ci.org/itsthejb/CKToolbox)
 [![BuildDev](https://travis-ci.org/itsthejb/CKToolbox.svg?branch=dev)](https://travis-ci.org/itsthejb/CKToolbox)
+[![Pod Status](https://img.shields.io/cocoapods/v/CKToolbox.svg)](http://www.cocoapods.org/?q=CKToolbox)
+[![Pod License](https://img.shields.io/cocoapods/l/CKToolbox.svg)](http://www.cocoapods.org/?q=CKToolbox)
+[![Pod Platform](https://img.shields.io/cocoapods/p/CKToolbox.svg)](http://www.cocoapods.org/?q=CKToolbox)
 
 # [CKToolbox](http://itsthejb.github.io/CKToolbox/)
 
