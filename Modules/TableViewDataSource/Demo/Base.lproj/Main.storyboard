@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="zMO-6l-P8H">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Demo-->
+        <scene sceneID="9eW-DB-QEp">
+            <objects>
+                <tableViewController title="Demo" id="01p-KS-apm" customClass="AnimalInfoTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" indicatorStyle="white" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="hDB-LK-bjU">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="dataSource" destination="01p-KS-apm" id="EJz-kd-kdF"/>
+                            <outlet property="delegate" destination="01p-KS-apm" id="4sO-Tv-6b6"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="3DU-3g-HXs">
+                        <nil key="title"/>
+                        <view key="titleView" contentMode="scaleToFill" id="FLR-Ou-1JT" userLabel="TitleView" customClass="UILabel">
+                            <rect key="frame" x="180" y="6" width="240" height="33"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Animal Info" textAlignment="center" lineBreakMode="tailTruncation" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Uon-Et-Kqk" userLabel="Label">
+                                    <rect key="frame" x="0.0" y="0.0" width="240" height="33"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
+                                    <color key="textColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                    <color key="shadowColor" white="1" alpha="0.75230404109787252" colorSpace="calibratedWhite"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="Uon-Et-Kqk" firstAttribute="leading" secondItem="FLR-Ou-1JT" secondAttribute="leading" id="a68-F3-3b8"/>
+                                <constraint firstAttribute="bottom" secondItem="Uon-Et-Kqk" secondAttribute="bottom" id="aat-Ml-KFJ"/>
+                                <constraint firstAttribute="trailing" secondItem="Uon-Et-Kqk" secondAttribute="trailing" id="bSY-Wg-YcF"/>
+                                <constraint firstItem="Uon-Et-Kqk" firstAttribute="top" secondItem="FLR-Ou-1JT" secondAttribute="top" id="qEW-7f-gMR"/>
+                            </constraints>
+                        </view>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zFy-as-Pf7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="309" y="345"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="vj1-3J-fPH">
+            <objects>
+                <navigationController id="zMO-6l-P8H" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="e7Q-05-PNv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="01p-KS-apm" kind="relationship" relationship="rootViewController" id="VkW-9z-jub"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Ly-q2-dUn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-387" y="350"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+</document>

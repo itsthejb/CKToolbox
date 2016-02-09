@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>info</key>
+		<string>LENGTH
+6.2 feet
+
+HABITATS
+Lakes &amp; Rivers</string>
+		<key>image</key>
+		<string>yangtze_finless_porpoise_7.23.2012_image2_HI_105590</string>
+		<key>population</key>
+		<string>1000-1800</string>
+		<key>binomial</key>
+		<string>Neophocaena asiaeorientalis ssp. asiaeorientalis</string>
+		<key>common</key>
+		<string>Yangtze Finless Porpoise</string>
+		<key>url</key>
+		<string>https://www.worldwildlife.org/species/yangtze-finless-porpoise</string>
+	</dict>
+	<dict>
+		<key>info</key>
+		<string>WEIGHT
+165–308 pounds
+
+HABITATS
+Tropical broadleaf evergreen forests, freshwater swamp forests and peat swamps</string>
+		<key>image</key>
+		<string>Sumatran-Tiger-Hero</string>
+		<key>population</key>
+		<string>Fewer than 400</string>
+		<key>binomial</key>
+		<string>Panthera tigris sumatrae</string>
+		<key>common</key>
+		<string>Sumatran Tiger</string>
+		<key>url</key>
+		<string>https://www.worldwildlife.org/species/sumatran-tiger</string>
+	</dict>
+	<dict>
+		<key>info</key>
+		<string>HEIGHT
+Up to 5 feet
+
+WEIGHT
+Up to 120 pounds
+
+HABITATS
+Marine (only in the northern Gulf of California)</string>
+		<key>image</key>
+		<string>Vaquita_1_Thomas_A_Jefferson_20081019</string>
+		<key>population</key>
+		<string>Fewer than 100 individuals</string>
+		<key>binomial</key>
+		<string>Phocoena sinus</string>
+		<key>common</key>
+		<string>Vaquita</string>
+		<key>url</key>
+		<string>https://www.worldwildlife.org/species/vaquita</string>
+	</dict>
+	<dict>
+		<key>info</key>
+		<string>HEIGHT
+4 to 5 ½ feet when standing on two feet
+
+WEIGHT
+up to 440 pounds</string>
+		<key>image</key>
+		<string>Western_lowland_gorilla_7.31.2012_hero_and_circle_HI_105208</string>
+		<key>population</key>
+		<string>Unknown</string>
+		<key>binomial</key>
+		<string>Gorilla gorilla gorilla</string>
+		<key>common</key>
+		<string>Western Lowland Gorilla</string>
+		<key>url</key>
+		<string>https://www.worldwildlife.org/species/western-lowland-gorilla</string>
+	</dict>
+	<dict>
+		<key>info</key>
+		<string>WEIGHT
+70 -105 pounds
+
+HABITATS
+Temperate, Broadleaf, and Mixed Forests</string>
+		<key>image</key>
+		<string>amur-leopard_99144569</string>
+		<key>population</key>
+		<string>More than 60 individuals</string>
+		<key>binomial</key>
+		<string>Panthera pardus orientalis</string>
+		<key>common</key>
+		<string>Amur Leopard</string>
+		<key>url</key>
+		<string>https://www.worldwildlife.org/species/amur-leopard</string>
+	</dict>
+	<dict>
+		<key>info</key>
+		<string>HEIGHT
+5.2 feet
+
+WEIGHT
+1,760 -3,080 pounds
+
+HABITATS
+Tropical and Subtropical Grasslands, Savannas, Deserts and Xeric Shrublands</string>
+		<key>image</key>
+		<string>Black_Rhino_8.6.2012_Hero_and_Circle_HI_48366</string>
+		<key>population</key>
+		<string>More than 5,000</string>
+		<key>binomial</key>
+		<string>Diceros bicornis</string>
+		<key>common</key>
+		<string>Black Rhino</string>
+		<key>url</key>
+		<string>https://www.worldwildlife.org/species/black-rhino</string>
+	</dict>
+	<dict>
+		<key>info</key>
+		<string>HEIGHT
+4 to 5 ½ feet when standing on two feet
+
+WEIGHT
+up to 440 pounds</string>
+		<key>image</key>
+		<string>cross-river-gorillaXL_264559</string>
+		<key>population</key>
+		<string>200 to 300 individuals</string>
+		<key>binomial</key>
+		<string>Gorilla gorilla diehli</string>
+		<key>common</key>
+		<string>Cross River Gorilla</string>
+		<key>url</key>
+		<string>https://www.worldwildlife.org/species/cross-river-gorilla</string>
+	</dict>
+	<dict>
+		<key>info</key>
+		<string>WEIGHT
+90-150 pounds
+
+LENGTH
+30-35 inches
+
+HABITATS
+Oceans</string>
+		<key>image</key>
+		<string>MID_225023-circle-hawksbill-turtle</string>
+		<key>population</key>
+		<string>90-150 pounds</string>
+		<key>binomial</key>
+		<string>Eretmochelys imbricata</string>
+		<key>common</key>
+		<string>Hawksbill Turtle</string>
+		<key>url</key>
+		<string>https://www.worldwildlife.org/species/hawksbill-turtle</string>
+	</dict>
+	<dict>
+		<key>info</key>
+		<string>HEIGHT
+4.6–5.8 feet
+
+WEIGHT
+1,984 - 5,071 pounds
+
+LENGTH
+10–10.5 feet
+
+HABITATS
+Tropical forests</string>
+		<key>image</key>
+		<string>_H9A0249</string>
+		<key>population</key>
+		<string>60</string>
+		<key>binomial</key>
+		<string>Rhinoceros sondaicus</string>
+		<key>common</key>
+		<string>Javan Rhino</string>
+		<key>url</key>
+		<string>https://www.worldwildlife.org/species/javan-rhino</string>
+	</dict>
+	<dict>
+		<key>info</key>
+		<string>WEIGHT
+600-1500 pounds
+
+LENGTH
+55-63 inches
+
+HABITATS
+Oceans</string>
+		<key>image</key>
+		<string>SCR_289416</string>
+		<key>population</key>
+		<string>600-1500 pounds</string>
+		<key>binomial</key>
+		<string>Dermochelys coriacea</string>
+		<key>common</key>
+		<string>Leatherback Turtle</string>
+		<key>url</key>
+		<string>https://www.worldwildlife.org/species/leatherback-turtle</string>
+	</dict>
+	<dict>
+		<key>info</key>
+		<string>HEIGHT
+4 to 5 ½ feet when standing on two feet
+
+WEIGHT
+up to 440 lbs</string>
+		<key>image</key>
+		<string>Mountain_Gorilla_8.10.2012_New_Hero_Image_HI_45487</string>
+		<key>population</key>
+		<string>880</string>
+		<key>binomial</key>
+		<string>Gorilla beringei beringei</string>
+		<key>common</key>
+		<string>Mountain Gorilla</string>
+		<key>url</key>
+		<string>https://www.worldwildlife.org/species/mountain-gorilla</string>
+	</dict>
+	<dict>
+		<key>info</key>
+		<string>HABITATS
+Forests and Grasslands</string>
+		<key>image</key>
+		<string>pangolin_1</string>
+		<key>population</key>
+		<string>unavailable</string>
+		<key>binomial</key>
+		<string>Manis Javanica</string>
+		<key>common</key>
+		<string>Pangolin</string>
+		<key>url</key>
+		<string>https://www.worldwildlife.org/species/pangolin</string>
+	</dict>
+	<dict>
+		<key>info</key>
+		<string>HEIGHT
+Average 33 inches at the shoulder
+
+WEIGHT
+176-220 lbs
+
+HABITATS
+Evergreen forests with little or no dry season</string>
+		<key>image</key>
+		<string>LG-Saola_Hero_image_(c)_David_Hulse_WWF_Canon</string>
+		<key>population</key>
+		<string>Unknown</string>
+		<key>binomial</key>
+		<string>Pseudoryx nghetinhensis</string>
+		<key>common</key>
+		<string>Saola</string>
+		<key>url</key>
+		<string>https://www.worldwildlife.org/species/saola</string>
+	</dict>
+	<dict>
+		<key>info</key>
+		<string>HABITATS
+Southeast China-Hainan Moist Forests</string>
+		<key>image</key>
+		<string>South_China_Tiger_8.10.2012_Hero_and_Circle_HI_7697</string>
+		<key>population</key>
+		<string>believed to be extinct in the wild</string>
+		<key>binomial</key>
+		<string>Panthera tigris amoyensis</string>
+		<key>common</key>
+		<string>South China Tiger</string>
+		<key>url</key>
+		<string>https://www.worldwildlife.org/species/south-china-tiger</string>
+	</dict>
+	<dict>
+		<key>info</key>
+		<string>HEIGHT
+5-9 feet at the shoulder
+
+WEIGHT
+approximately 5 tons
+
+LENGTH
+up to 20 feet
+
+HABITATS
+Broadleaf moist tropical forests</string>
+		<key>image</key>
+		<string>MID_247517</string>
+		<key>population</key>
+		<string>2,400 – 2,800</string>
+		<key>binomial</key>
+		<string>Elephas maximus sumatranus</string>
+		<key>common</key>
+		<string>Sumatran Elephant</string>
+		<key>url</key>
+		<string>https://www.worldwildlife.org/species/sumatran-elephant</string>
+	</dict>
+	<dict>
+		<key>info</key>
+		<string>WEIGHT
+66 – 198 pounds
+
+LENGTH
+4 to 5 feet
+
+HABITATS
+Tropical and Subtropical Moist Broadleaf Forests</string>
+		<key>image</key>
+		<string>sumatran_orangutan_8.6.2012_Hero_and_Circle_image_XL_257636</string>
+		<key>population</key>
+		<string>Approximately 7,300</string>
+		<key>binomial</key>
+		<string>Pongo abelii</string>
+		<key>common</key>
+		<string>Sumatran Orangutan</string>
+		<key>url</key>
+		<string>https://www.worldwildlife.org/species/sumatran-orangutan</string>
+	</dict>
+	<dict>
+		<key>info</key>
+		<string>HEIGHT
+3.3-5 feet
+
+WEIGHT
+1,320 -2,090 pounds
+
+LENGTH
+6.5-13 feet
+
+HABITATS
+Dense highland and lowland tropical and sub-tropical forests</string>
+		<key>image</key>
+		<string>Photo_1_Sumatran_rhino_3_(c)_Bill_Konstant_International_Rhino_Foundation</string>
+		<key>population</key>
+		<string>Fewer than 100</string>
+		<key>binomial</key>
+		<string>Dicerorhinus sumatrensis</string>
+		<key>common</key>
+		<string>Sumatran Rhino</string>
+		<key>url</key>
+		<string>https://www.worldwildlife.org/species/sumatran-rhino</string>
+	</dict>
+</array>
+</plist>
