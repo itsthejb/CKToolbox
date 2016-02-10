@@ -1,6 +1,6 @@
 platform :ios, '7.0'
 
-CK_VERS='0.14'.freeze
+CK_VERS='~> 0.0'.freeze
 
 target :CKToolbox do
   pod 'ComponentKit', CK_VERS
