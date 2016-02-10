@@ -1,16 +1,16 @@
 PODS:
-  - CKToolbox/All (0.0.1):
+  - CKToolbox/All (0.1.0):
     - CKToolbox/ChangesetBuilder
     - CKToolbox/RemoveAll
     - CKToolbox/TableViewDataSource
-    - ComponentKit (~> 0.13)
-  - CKToolbox/ChangesetBuilder (0.0.1):
-    - ComponentKit (~> 0.13)
-  - CKToolbox/RemoveAll (0.0.1):
-    - ComponentKit (~> 0.13)
-  - CKToolbox/TableViewDataSource (0.0.1):
+    - ComponentKit (~> 0.0)
+  - CKToolbox/ChangesetBuilder (0.1.0):
+    - ComponentKit (~> 0.0)
+  - CKToolbox/RemoveAll (0.1.0):
+    - ComponentKit (~> 0.0)
+  - CKToolbox/TableViewDataSource (0.1.0):
     - CKToolbox/RemoveAll
-    - ComponentKit (~> 0.13)
+    - ComponentKit (~> 0.0)
   - ComponentKit (0.14)
   - ComponentSnapshotTestCase (0.14):
     - FBSnapshotTestCase/Core (~> 2.0.4)
@@ -22,7 +22,7 @@ PODS:
 DEPENDENCIES:
   - CKToolbox/All (from `.`)
   - CKToolbox/TableViewDataSource (from `.`)
-  - ComponentKit (= 0.14)
+  - ComponentKit (~> 0.0)
   - ComponentSnapshotTestCase (from `Support/ComponentSnapshotTestCase.podspec`)
   - Expecta (~> 1.0.5)
   - OCMock (~> 3.2.2)
@@ -35,7 +35,7 @@ EXTERNAL SOURCES:
     :podspec: Support/ComponentSnapshotTestCase.podspec
 
 SPEC CHECKSUMS:
-  CKToolbox: fa2934f256a76af02d6d711d90b3884749156ad9
+  CKToolbox: 4eb789f8a0dfbd8783cae46b854f76b05a9dc52d
   ComponentKit: 11d9177b5e9940c456e7486d8f5a25c26d9ca5f2
   ComponentSnapshotTestCase: 50f198a6433ebe8047c8b20a79ff63da88d36b12
   Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
