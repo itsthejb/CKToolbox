@@ -35,7 +35,7 @@ EXTERNAL SOURCES:
     :podspec: Support/ComponentSnapshotTestCase.podspec
 
 SPEC CHECKSUMS:
-  CKToolbox: 4eb789f8a0dfbd8783cae46b854f76b05a9dc52d
+  CKToolbox: 7c49c368d07e561adec6c023ef0f0c0b27afddad
   ComponentKit: 11d9177b5e9940c456e7486d8f5a25c26d9ca5f2
   ComponentSnapshotTestCase: 50f198a6433ebe8047c8b20a79ff63da88d36b12
   Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
