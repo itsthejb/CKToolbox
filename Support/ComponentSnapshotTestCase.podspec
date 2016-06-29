@@ -1,6 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = "ComponentSnapshotTestCase"
   s.version          = "0.14"
+  s.authors          = 'adamjernst@fb.com'
   s.summary          = "Support for Components with FBSnapshotTestCase"
   s.homepage         = "https://componentkit.org"
   s.license          = 'BSD'

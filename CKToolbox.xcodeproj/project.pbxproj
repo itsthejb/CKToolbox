@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03E27A3FB119AFB1ABDF77F2 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B6FE6FD99E2A45D574937C /* libPods-Tests.a */; };
-		2C370C71748D1557DAFFDF6E /* libPods-CKToolbox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9AC714F438E2F7B4F2C3127 /* libPods-CKToolbox.a */; };
-		3415476D34AC20E382E19A09 /* libPods-TableViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0460046A52B556B9A83BF9E /* libPods-TableViewDemo.a */; };
+		18B5C32BFE51435F7DDE8B11 /* libPods-Shared-CKToolbox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A4C1441BEA176800FBE24C /* libPods-Shared-CKToolbox.a */; };
 		491565C61C5E1FD800DB7304 /* AnimalComponentController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 491565C41C5E1F8900DB7304 /* AnimalComponentController.mm */; };
 		4936ABD01C67CF8A003704EB /* Sumatran-Tiger-Hero.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4936ABCF1C67CF8A003704EB /* Sumatran-Tiger-Hero.jpg */; };
 		495E8A681C5135E000789C25 /* CKCollectionViewDataSourceChangesetBuilder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 495E8A671C5135E000789C25 /* CKCollectionViewDataSourceChangesetBuilder.mm */; };
@@ -37,6 +35,8 @@
 		49EDB0D71C5156F8005B5493 /* CKCollectionViewTransactionalDataSourceRemoveAllTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 49EDB0D61C5156F8005B5493 /* CKCollectionViewTransactionalDataSourceRemoveAllTests.mm */; };
 		49EDB0DE1C51696E005B5493 /* CKTableViewTransactionalDataSource+RemoveAll.mm in Sources */ = {isa = PBXBuildFile; fileRef = 49EDB0DD1C51696E005B5493 /* CKTableViewTransactionalDataSource+RemoveAll.mm */; };
 		49EDB0E11C516AC5005B5493 /* CKTransactionalComponentDataSourceState+RemoveAll.mm in Sources */ = {isa = PBXBuildFile; fileRef = 49EDB0E01C516AC5005B5493 /* CKTransactionalComponentDataSourceState+RemoveAll.mm */; };
+		7FB4ED68982774A4EAA6C072 /* libPods-Shared-TableViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D62F05048EA9DB5D6CA57B /* libPods-Shared-TableViewDemo.a */; };
+		91352F5ABEFDCC069B2DBA90 /* libPods-Shared-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F01BA00AC05F2D6C3CC3FC0 /* libPods-Shared-Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,9 +52,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		04ACA37DF9E8D23A822F9A51 /* Pods-CKToolbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKToolbox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CKToolbox/Pods-CKToolbox.debug.xcconfig"; sourceTree = "<group>"; };
-		26FA351C2FF022BC1DDB1692 /* Pods-TableViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewDemo/Pods-TableViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		27910EB3302964A94ECFFF55 /* Pods-CKToolbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKToolbox.release.xcconfig"; path = "Pods/Target Support Files/Pods-CKToolbox/Pods-CKToolbox.release.xcconfig"; sourceTree = "<group>"; };
+		0AF4EF4569685375EDDF7A50 /* Pods-Shared-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shared-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shared-Tests/Pods-Shared-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		181938D08FA64330EDF94D98 /* Pods-Shared-CKToolbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shared-CKToolbox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shared-CKToolbox/Pods-Shared-CKToolbox.debug.xcconfig"; sourceTree = "<group>"; };
+		2819EE4033CF01D04CEC7A79 /* Pods-Shared-CKToolbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shared-CKToolbox.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shared-CKToolbox/Pods-Shared-CKToolbox.release.xcconfig"; sourceTree = "<group>"; };
 		491565C31C5E1F8900DB7304 /* AnimalComponentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalComponentController.h; sourceTree = "<group>"; };
 		491565C41C5E1F8900DB7304 /* AnimalComponentController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AnimalComponentController.mm; sourceTree = "<group>"; };
 		491565C71C5E204300DB7304 /* AnimalComponentResponder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimalComponentResponder.h; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		495E8A591C51341200789C25 /* libCKToolbox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCKToolbox.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		495E8A661C5135E000789C25 /* CKCollectionViewDataSourceChangesetBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKCollectionViewDataSourceChangesetBuilder.h; sourceTree = "<group>"; };
 		495E8A671C5135E000789C25 /* CKCollectionViewDataSourceChangesetBuilder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CKCollectionViewDataSourceChangesetBuilder.mm; sourceTree = "<group>"; };
-		495E8A691C51360700789C25 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		495E8A691C51360700789C25 /* Podfile */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		495E8A6E1C51361E00789C25 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		495E8A721C51361E00789C25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		495E8A791C51377000789C25 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 		496F653A1C5143C800DD1E07 /* AnimalInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalInfoTableViewController.h; sourceTree = "<group>"; };
 		496F653B1C5143C800DD1E07 /* AnimalInfoTableViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AnimalInfoTableViewController.mm; sourceTree = "<group>"; };
 		496F654B1C51442400DD1E07 /* TableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		496F656A1C5146B200DD1E07 /* CKToolbox.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = CKToolbox.podspec; sourceTree = "<group>"; };
+		496F656A1C5146B200DD1E07 /* CKToolbox.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; indentWidth = 2; path = CKToolbox.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		496F65721C5149E800DD1E07 /* CKTableViewTransactionalComponentDataSourceSpecs.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CKTableViewTransactionalComponentDataSourceSpecs.mm; sourceTree = "<group>"; };
 		496F65741C5149E800DD1E07 /* CKTableViewTransactionalDataSourceTestComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKTableViewTransactionalDataSourceTestComponent.h; sourceTree = "<group>"; };
 		496F65751C5149E800DD1E07 /* CKTableViewTransactionalDataSourceTestComponent.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CKTableViewTransactionalDataSourceTestComponent.mm; sourceTree = "<group>"; };
@@ -113,12 +113,12 @@
 		49EDB0DD1C51696E005B5493 /* CKTableViewTransactionalDataSource+RemoveAll.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "CKTableViewTransactionalDataSource+RemoveAll.mm"; sourceTree = "<group>"; };
 		49EDB0DF1C516AC5005B5493 /* CKTransactionalComponentDataSourceState+RemoveAll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CKTransactionalComponentDataSourceState+RemoveAll.h"; sourceTree = "<group>"; };
 		49EDB0E01C516AC5005B5493 /* CKTransactionalComponentDataSourceState+RemoveAll.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "CKTransactionalComponentDataSourceState+RemoveAll.mm"; sourceTree = "<group>"; };
-		53B6FE6FD99E2A45D574937C /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0460046A52B556B9A83BF9E /* libPods-TableViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TableViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9AC714F438E2F7B4F2C3127 /* libPods-CKToolbox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CKToolbox.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D35B67AEDE26EF5FBBA90C6E /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EF5CE25354C1D5A6B7A48965 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F9E8FA75642AD24A24E6A4A7 /* Pods-TableViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewDemo/Pods-TableViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		4F01BA00AC05F2D6C3CC3FC0 /* libPods-Shared-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Shared-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76BF6C547D4217D7E95E893E /* Pods-Shared-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shared-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shared-Tests/Pods-Shared-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		95D62F05048EA9DB5D6CA57B /* libPods-Shared-TableViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Shared-TableViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9990F3D347750BE9FAC51F7C /* Pods-Shared-TableViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shared-TableViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shared-TableViewDemo/Pods-Shared-TableViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A2A4C1441BEA176800FBE24C /* libPods-Shared-CKToolbox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Shared-CKToolbox.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB9A9741B1B595A395B30494 /* Pods-Shared-TableViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shared-TableViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shared-TableViewDemo/Pods-Shared-TableViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C370C71748D1557DAFFDF6E /* libPods-CKToolbox.a in Frameworks */,
+				18B5C32BFE51435F7DDE8B11 /* libPods-Shared-CKToolbox.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,7 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03E27A3FB119AFB1ABDF77F2 /* libPods-Tests.a in Frameworks */,
+				91352F5ABEFDCC069B2DBA90 /* libPods-Shared-Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,23 +142,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3415476D34AC20E382E19A09 /* libPods-TableViewDemo.a in Frameworks */,
+				7FB4ED68982774A4EAA6C072 /* libPods-Shared-TableViewDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02D8C5B0073953F4256BF2EC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B9AC714F438E2F7B4F2C3127 /* libPods-CKToolbox.a */,
-				B0460046A52B556B9A83BF9E /* libPods-TableViewDemo.a */,
-				53B6FE6FD99E2A45D574937C /* libPods-Tests.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		495E8A501C51341200789C25 = {
 			isa = PBXGroup;
 			children = (
@@ -166,9 +156,9 @@
 				495E8A6F1C51361E00789C25 /* Tests */,
 				495E8A5A1C51341200789C25 /* Products */,
 				75244B7151770B5771E829CC /* Pods */,
-				02D8C5B0073953F4256BF2EC /* Frameworks */,
 				495E8A791C51377000789C25 /* LICENSE */,
 				495E8A7A1C51377000789C25 /* README.md */,
+				D9C1A539B19B24EC2BB64811 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -359,14 +349,24 @@
 			children = (
 				495E8A691C51360700789C25 /* Podfile */,
 				496F656A1C5146B200DD1E07 /* CKToolbox.podspec */,
-				04ACA37DF9E8D23A822F9A51 /* Pods-CKToolbox.debug.xcconfig */,
-				27910EB3302964A94ECFFF55 /* Pods-CKToolbox.release.xcconfig */,
-				26FA351C2FF022BC1DDB1692 /* Pods-TableViewDemo.debug.xcconfig */,
-				F9E8FA75642AD24A24E6A4A7 /* Pods-TableViewDemo.release.xcconfig */,
-				D35B67AEDE26EF5FBBA90C6E /* Pods-Tests.debug.xcconfig */,
-				EF5CE25354C1D5A6B7A48965 /* Pods-Tests.release.xcconfig */,
+				181938D08FA64330EDF94D98 /* Pods-Shared-CKToolbox.debug.xcconfig */,
+				2819EE4033CF01D04CEC7A79 /* Pods-Shared-CKToolbox.release.xcconfig */,
+				9990F3D347750BE9FAC51F7C /* Pods-Shared-TableViewDemo.debug.xcconfig */,
+				BB9A9741B1B595A395B30494 /* Pods-Shared-TableViewDemo.release.xcconfig */,
+				76BF6C547D4217D7E95E893E /* Pods-Shared-Tests.debug.xcconfig */,
+				0AF4EF4569685375EDDF7A50 /* Pods-Shared-Tests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		D9C1A539B19B24EC2BB64811 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2A4C1441BEA176800FBE24C /* libPods-Shared-CKToolbox.a */,
+				95D62F05048EA9DB5D6CA57B /* libPods-Shared-TableViewDemo.a */,
+				4F01BA00AC05F2D6C3CC3FC0 /* libPods-Shared-Tests.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -376,11 +376,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 495E8A621C51341200789C25 /* Build configuration list for PBXNativeTarget "CKToolbox" */;
 			buildPhases = (
-				7849365D795570D352AD4E24 /* Check Pods Manifest.lock */,
+				CF62A9FB7C39C635088BDCD5 /* [CP] Check Pods Manifest.lock */,
 				495E8A551C51341200789C25 /* Sources */,
 				495E8A561C51341200789C25 /* Frameworks */,
 				495E8A571C51341200789C25 /* CopyFiles */,
-				C987EDE4F00F213B1AB222FA /* Copy Pods Resources */,
+				74151802BAA5FBC18327CC52 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -395,12 +395,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 495E8A761C51361E00789C25 /* Build configuration list for PBXNativeTarget "Tests" */;
 			buildPhases = (
-				46D75A683E757F97F8BA3F4E /* Check Pods Manifest.lock */,
+				95F3D137688AC563D5974A37 /* [CP] Check Pods Manifest.lock */,
 				495E8A6A1C51361E00789C25 /* Sources */,
 				495E8A6B1C51361E00789C25 /* Frameworks */,
 				495E8A6C1C51361E00789C25 /* Resources */,
-				2756560F4F863E93190C21C2 /* Embed Pods Frameworks */,
-				4ADB00287F65994F15470712 /* Copy Pods Resources */,
+				17B5292D14B93BEA81DDBEE8 /* [CP] Embed Pods Frameworks */,
+				E5F5B6E91874712DEC88C715 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -415,12 +415,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 496F655F1C51442400DD1E07 /* Build configuration list for PBXNativeTarget "TableViewDemo" */;
 			buildPhases = (
-				D235A5FA7F31AF1A1C127643 /* Check Pods Manifest.lock */,
+				4B0F068F3DE17FA3A1743438 /* [CP] Check Pods Manifest.lock */,
 				496F65471C51442400DD1E07 /* Sources */,
 				496F65481C51442400DD1E07 /* Frameworks */,
 				496F65491C51442400DD1E07 /* Resources */,
-				E6190305043BFB93C115EE0D /* Embed Pods Frameworks */,
-				F1304A4395C16B64C8D5CD79 /* Copy Pods Resources */,
+				A77BC0BBDD57B59237A6A9F6 /* [CP] Embed Pods Frameworks */,
+				5829890D3591E578AD9CDA8A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -495,29 +495,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2756560F4F863E93190C21C2 /* Embed Pods Frameworks */ = {
+		17B5292D14B93BEA81DDBEE8 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shared-Tests/Pods-Shared-Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		46D75A683E757F97F8BA3F4E /* Check Pods Manifest.lock */ = {
+		4B0F068F3DE17FA3A1743438 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -525,29 +525,44 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		4ADB00287F65994F15470712 /* Copy Pods Resources */ = {
+		5829890D3591E578AD9CDA8A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shared-TableViewDemo/Pods-Shared-TableViewDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7849365D795570D352AD4E24 /* Check Pods Manifest.lock */ = {
+		74151802BAA5FBC18327CC52 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shared-CKToolbox/Pods-Shared-CKToolbox-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95F3D137688AC563D5974A37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -555,29 +570,29 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		C987EDE4F00F213B1AB222FA /* Copy Pods Resources */ = {
+		A77BC0BBDD57B59237A6A9F6 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CKToolbox/Pods-CKToolbox-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shared-TableViewDemo/Pods-Shared-TableViewDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D235A5FA7F31AF1A1C127643 /* Check Pods Manifest.lock */ = {
+		CF62A9FB7C39C635088BDCD5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -585,34 +600,19 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		E6190305043BFB93C115EE0D /* Embed Pods Frameworks */ = {
+		E5F5B6E91874712DEC88C715 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableViewDemo/Pods-TableViewDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F1304A4395C16B64C8D5CD79 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableViewDemo/Pods-TableViewDemo-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shared-Tests/Pods-Shared-Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -767,7 +767,7 @@
 		};
 		495E8A631C51341200789C25 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 04ACA37DF9E8D23A822F9A51 /* Pods-CKToolbox.debug.xcconfig */;
+			baseConfigurationReference = 181938D08FA64330EDF94D98 /* Pods-Shared-CKToolbox.debug.xcconfig */;
 			buildSettings = {
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -780,7 +780,7 @@
 		};
 		495E8A641C51341200789C25 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27910EB3302964A94ECFFF55 /* Pods-CKToolbox.release.xcconfig */;
+			baseConfigurationReference = 2819EE4033CF01D04CEC7A79 /* Pods-Shared-CKToolbox.release.xcconfig */;
 			buildSettings = {
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -793,7 +793,7 @@
 		};
 		495E8A771C51361E00789C25 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D35B67AEDE26EF5FBBA90C6E /* Pods-Tests.debug.xcconfig */;
+			baseConfigurationReference = 76BF6C547D4217D7E95E893E /* Pods-Shared-Tests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -804,7 +804,7 @@
 		};
 		495E8A781C51361E00789C25 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF5CE25354C1D5A6B7A48965 /* Pods-Tests.release.xcconfig */;
+			baseConfigurationReference = 0AF4EF4569685375EDDF7A50 /* Pods-Shared-Tests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -815,7 +815,7 @@
 		};
 		496F65601C51442400DD1E07 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26FA351C2FF022BC1DDB1692 /* Pods-TableViewDemo.debug.xcconfig */;
+			baseConfigurationReference = 9990F3D347750BE9FAC51F7C /* Pods-Shared-TableViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Modules/TableViewDataSource/Demo/Info.plist;
@@ -827,7 +827,7 @@
 		};
 		496F65611C51442400DD1E07 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9E8FA75642AD24A24E6A4A7 /* Pods-TableViewDemo.release.xcconfig */;
+			baseConfigurationReference = BB9A9741B1B595A395B30494 /* Pods-Shared-TableViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Modules/TableViewDataSource/Demo/Info.plist;
