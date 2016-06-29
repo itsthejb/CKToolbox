@@ -1,5 +1,5 @@
 //
-//  CKTransactionalComponentDataSourceState+RemoveAll.h
+//  CKTransactionalComponentDataSourceState+RemoveAll.m
 //  CKToolbox
 //
 //  Created by Jonathan Crooke on 17/01/2016.
@@ -23,12 +23,29 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //  SOFTWARE.
 
-#import "CKTransactionalComponentDataSourceRemoveAll.h"
-#import <ComponentKit/CKTransactionalComponentDataSourceState.h>
+#import "CKTransactionalComponentDataSourceState+RemoveAll.h"
+#import <ComponentKit/CKTransactionalComponentDataSourceChangeset.h>
+#import <UIKit/UIKit.h>
 
-/**
- RemoveAll for CKTransactionalComponentDataSourceState. 
- This is the full implementation.
- */
-@interface CKTransactionalComponentDataSourceState (RemoveAll) <CKTransactionalComponentDataSourceRemoveAll>
+@implementation CKTransactionalComponentDataSourceState (RemoveAll)
+
+- (CKTransactionalComponentDataSourceChangeset*)removeAllChangeset
+{
+  NSMutableSet *indexPaths = [NSMutableSet set];
+  NSMutableIndexSet *sections = [NSMutableIndexSet indexSet];
+
+  [self enumerateObjectsUsingBlock:^(CKTransactionalComponentDataSourceItem *_, NSIndexPath *indexPath, BOOL *stop) {
+    [indexPaths addObject:indexPath];
+    [sections addIndex:indexPath.section];
+  }];
+
+  return [[CKTransactionalComponentDataSourceChangeset alloc]
+          initWithUpdatedItems:nil
+          removedItems:indexPaths
+          removedSections:sections
+          movedItems:nil
+          insertedSections:nil
+          insertedItems:nil];
+}
+
 @end

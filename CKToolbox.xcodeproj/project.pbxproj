@@ -7,13 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18B5C32BFE51435F7DDE8B11 /* libPods-Shared-CKToolbox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A4C1441BEA176800FBE24C /* libPods-Shared-CKToolbox.a */; };
+		13E67EB48A4337EAA78F265F /* libPods-Shared-CKToolbox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4F2C7CA75053391B5C19180 /* libPods-Shared-CKToolbox.a */; };
 		491565C61C5E1FD800DB7304 /* AnimalComponentController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 491565C41C5E1F8900DB7304 /* AnimalComponentController.mm */; };
 		4936ABD01C67CF8A003704EB /* Sumatran-Tiger-Hero.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4936ABCF1C67CF8A003704EB /* Sumatran-Tiger-Hero.jpg */; };
+		4954B80A1D241FD800C4F42A /* CKTransactionalComponentDataSourceState+RemoveAll.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4954B8071D241FD800C4F42A /* CKTransactionalComponentDataSourceState+RemoveAll.mm */; };
 		495E8A681C5135E000789C25 /* CKCollectionViewDataSourceChangesetBuilder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 495E8A671C5135E000789C25 /* CKCollectionViewDataSourceChangesetBuilder.mm */; };
 		495E8A7C1C51379200789C25 /* CKTransactionalComponentDataSourceChangesetDSLBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 495E8A7B1C51379200789C25 /* CKTransactionalComponentDataSourceChangesetDSLBuilderTests.m */; };
-		4963DB121C51541B00875353 /* CKCollectionViewTransactionalDataSource+RemoveAll.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4963DB111C51541B00875353 /* CKCollectionViewTransactionalDataSource+RemoveAll.mm */; };
-		496F653D1C5143C800DD1E07 /* CKCollectionViewTransactionalDataSource+AbstractInterface.mm in Sources */ = {isa = PBXBuildFile; fileRef = 496F651E1C5143C800DD1E07 /* CKCollectionViewTransactionalDataSource+AbstractInterface.mm */; };
 		496F653E1C5143C800DD1E07 /* CKTableViewDataSourceCell.mm in Sources */ = {isa = PBXBuildFile; fileRef = 496F65201C5143C800DD1E07 /* CKTableViewDataSourceCell.mm */; };
 		496F653F1C5143C800DD1E07 /* CKTableViewTransactionalDataSource.mm in Sources */ = {isa = PBXBuildFile; fileRef = 496F65231C5143C800DD1E07 /* CKTableViewTransactionalDataSource.mm */; };
 		496F65401C5143C800DD1E07 /* CKTableViewTransactionalDataSourceCellConfiguration.mm in Sources */ = {isa = PBXBuildFile; fileRef = 496F65261C5143C800DD1E07 /* CKTableViewTransactionalDataSourceCellConfiguration.mm */; };
@@ -32,11 +31,10 @@
 		499B287B1C5D8647008BE497 /* AnimalCellConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 499B28791C5D858C008BE497 /* AnimalCellConfiguration.m */; };
 		49C027441C5E931700830E2A /* CKTableViewTransactionalDataSourceTestComponentController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 49C027431C5E931700830E2A /* CKTableViewTransactionalDataSourceTestComponentController.mm */; };
 		49C027481C5E944F00830E2A /* CKTestCellConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C027471C5E944F00830E2A /* CKTestCellConfiguration.m */; };
+		49C9C86E1D253B770098FB53 /* CKCollectionViewTransactionalDataSource+AbstractInterface.mm in Sources */ = {isa = PBXBuildFile; fileRef = 49C9C86D1D253B770098FB53 /* CKCollectionViewTransactionalDataSource+AbstractInterface.mm */; };
 		49EDB0D71C5156F8005B5493 /* CKCollectionViewTransactionalDataSourceRemoveAllTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 49EDB0D61C5156F8005B5493 /* CKCollectionViewTransactionalDataSourceRemoveAllTests.mm */; };
-		49EDB0DE1C51696E005B5493 /* CKTableViewTransactionalDataSource+RemoveAll.mm in Sources */ = {isa = PBXBuildFile; fileRef = 49EDB0DD1C51696E005B5493 /* CKTableViewTransactionalDataSource+RemoveAll.mm */; };
-		49EDB0E11C516AC5005B5493 /* CKTransactionalComponentDataSourceState+RemoveAll.mm in Sources */ = {isa = PBXBuildFile; fileRef = 49EDB0E01C516AC5005B5493 /* CKTransactionalComponentDataSourceState+RemoveAll.mm */; };
-		7FB4ED68982774A4EAA6C072 /* libPods-Shared-TableViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D62F05048EA9DB5D6CA57B /* libPods-Shared-TableViewDemo.a */; };
-		91352F5ABEFDCC069B2DBA90 /* libPods-Shared-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F01BA00AC05F2D6C3CC3FC0 /* libPods-Shared-Tests.a */; };
+		7FA41F8BA8D97AEFEC686530 /* libPods-Shared-TableViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 544F33B8E61A3ABBD8A29FE9 /* libPods-Shared-TableViewDemo.a */; };
+		CA5C383B08AFB49BA02DCD46 /* libPods-Shared-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6210354A40F4E9C7813F382F /* libPods-Shared-Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,13 +50,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0AF4EF4569685375EDDF7A50 /* Pods-Shared-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shared-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shared-Tests/Pods-Shared-Tests.release.xcconfig"; sourceTree = "<group>"; };
-		181938D08FA64330EDF94D98 /* Pods-Shared-CKToolbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shared-CKToolbox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shared-CKToolbox/Pods-Shared-CKToolbox.debug.xcconfig"; sourceTree = "<group>"; };
-		2819EE4033CF01D04CEC7A79 /* Pods-Shared-CKToolbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shared-CKToolbox.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shared-CKToolbox/Pods-Shared-CKToolbox.release.xcconfig"; sourceTree = "<group>"; };
+		0B6D79A6980B08F97F85CC90 /* Pods-Shared-CKToolbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shared-CKToolbox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shared-CKToolbox/Pods-Shared-CKToolbox.debug.xcconfig"; sourceTree = "<group>"; };
 		491565C31C5E1F8900DB7304 /* AnimalComponentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalComponentController.h; sourceTree = "<group>"; };
 		491565C41C5E1F8900DB7304 /* AnimalComponentController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AnimalComponentController.mm; sourceTree = "<group>"; };
 		491565C71C5E204300DB7304 /* AnimalComponentResponder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimalComponentResponder.h; sourceTree = "<group>"; };
 		4936ABCF1C67CF8A003704EB /* Sumatran-Tiger-Hero.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Sumatran-Tiger-Hero.jpg"; path = "Modules/TableViewDataSource/Demo/Images.xcassets/Images/Sumatran-Tiger-Hero.imageset/Sumatran-Tiger-Hero.jpg"; sourceTree = SOURCE_ROOT; };
+		4954B8061D241FD800C4F42A /* CKTransactionalComponentDataSourceState+RemoveAll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CKTransactionalComponentDataSourceState+RemoveAll.h"; path = "Modules/Core/CKTransactionalComponentDataSourceState+RemoveAll.h"; sourceTree = "<group>"; };
+		4954B8071D241FD800C4F42A /* CKTransactionalComponentDataSourceState+RemoveAll.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "CKTransactionalComponentDataSourceState+RemoveAll.mm"; path = "Modules/Core/CKTransactionalComponentDataSourceState+RemoveAll.mm"; sourceTree = "<group>"; };
+		4954B8081D241FD800C4F42A /* CKTransactionalDataSourceInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CKTransactionalDataSourceInterface.h; path = Modules/Core/CKTransactionalDataSourceInterface.h; sourceTree = "<group>"; };
 		495E8A591C51341200789C25 /* libCKToolbox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCKToolbox.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		495E8A661C5135E000789C25 /* CKCollectionViewDataSourceChangesetBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKCollectionViewDataSourceChangesetBuilder.h; sourceTree = "<group>"; };
 		495E8A671C5135E000789C25 /* CKCollectionViewDataSourceChangesetBuilder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CKCollectionViewDataSourceChangesetBuilder.mm; sourceTree = "<group>"; };
@@ -68,11 +67,6 @@
 		495E8A791C51377000789C25 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		495E8A7A1C51377000789C25 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		495E8A7B1C51379200789C25 /* CKTransactionalComponentDataSourceChangesetDSLBuilderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKTransactionalComponentDataSourceChangesetDSLBuilderTests.m; sourceTree = "<group>"; };
-		4963DB101C51541B00875353 /* CKCollectionViewTransactionalDataSource+RemoveAll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CKCollectionViewTransactionalDataSource+RemoveAll.h"; sourceTree = "<group>"; };
-		4963DB111C51541B00875353 /* CKCollectionViewTransactionalDataSource+RemoveAll.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "CKCollectionViewTransactionalDataSource+RemoveAll.mm"; sourceTree = "<group>"; };
-		4963DB161C51561C00875353 /* CKTransactionalComponentDataSourceRemoveAll.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CKTransactionalComponentDataSourceRemoveAll.h; sourceTree = "<group>"; };
-		496F651D1C5143C800DD1E07 /* CKCollectionViewTransactionalDataSource+AbstractInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CKCollectionViewTransactionalDataSource+AbstractInterface.h"; sourceTree = "<group>"; };
-		496F651E1C5143C800DD1E07 /* CKCollectionViewTransactionalDataSource+AbstractInterface.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "CKCollectionViewTransactionalDataSource+AbstractInterface.mm"; sourceTree = "<group>"; };
 		496F651F1C5143C800DD1E07 /* CKTableViewDataSourceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKTableViewDataSourceCell.h; sourceTree = "<group>"; };
 		496F65201C5143C800DD1E07 /* CKTableViewDataSourceCell.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CKTableViewDataSourceCell.mm; sourceTree = "<group>"; };
 		496F65211C5143C800DD1E07 /* CKTableViewSupplementaryDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKTableViewSupplementaryDataSource.h; sourceTree = "<group>"; };
@@ -80,7 +74,6 @@
 		496F65231C5143C800DD1E07 /* CKTableViewTransactionalDataSource.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CKTableViewTransactionalDataSource.mm; sourceTree = "<group>"; };
 		496F65251C5143C800DD1E07 /* CKTableViewTransactionalDataSourceCellConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKTableViewTransactionalDataSourceCellConfiguration.h; sourceTree = "<group>"; };
 		496F65261C5143C800DD1E07 /* CKTableViewTransactionalDataSourceCellConfiguration.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CKTableViewTransactionalDataSourceCellConfiguration.mm; sourceTree = "<group>"; };
-		496F65271C5143C800DD1E07 /* CKTransactionalDataSourceInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKTransactionalDataSourceInterface.h; sourceTree = "<group>"; };
 		496F65291C5143C800DD1E07 /* AnimalComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalComponent.h; sourceTree = "<group>"; };
 		496F652A1C5143C800DD1E07 /* AnimalComponent.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AnimalComponent.mm; sourceTree = "<group>"; };
 		496F652B1C5143C800DD1E07 /* AnimalInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalInfo.h; sourceTree = "<group>"; };
@@ -108,17 +101,17 @@
 		49C027431C5E931700830E2A /* CKTableViewTransactionalDataSourceTestComponentController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CKTableViewTransactionalDataSourceTestComponentController.mm; sourceTree = "<group>"; };
 		49C027461C5E944F00830E2A /* CKTestCellConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKTestCellConfiguration.h; sourceTree = "<group>"; };
 		49C027471C5E944F00830E2A /* CKTestCellConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKTestCellConfiguration.m; sourceTree = "<group>"; };
+		49C9C86C1D253B770098FB53 /* CKCollectionViewTransactionalDataSource+AbstractInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CKCollectionViewTransactionalDataSource+AbstractInterface.h"; path = "Modules/Core/CKCollectionViewTransactionalDataSource+AbstractInterface.h"; sourceTree = "<group>"; };
+		49C9C86D1D253B770098FB53 /* CKCollectionViewTransactionalDataSource+AbstractInterface.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "CKCollectionViewTransactionalDataSource+AbstractInterface.mm"; path = "Modules/Core/CKCollectionViewTransactionalDataSource+AbstractInterface.mm"; sourceTree = "<group>"; };
 		49EDB0D61C5156F8005B5493 /* CKCollectionViewTransactionalDataSourceRemoveAllTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CKCollectionViewTransactionalDataSourceRemoveAllTests.mm; sourceTree = "<group>"; };
-		49EDB0DC1C51696E005B5493 /* CKTableViewTransactionalDataSource+RemoveAll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CKTableViewTransactionalDataSource+RemoveAll.h"; sourceTree = "<group>"; };
-		49EDB0DD1C51696E005B5493 /* CKTableViewTransactionalDataSource+RemoveAll.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "CKTableViewTransactionalDataSource+RemoveAll.mm"; sourceTree = "<group>"; };
-		49EDB0DF1C516AC5005B5493 /* CKTransactionalComponentDataSourceState+RemoveAll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CKTransactionalComponentDataSourceState+RemoveAll.h"; sourceTree = "<group>"; };
-		49EDB0E01C516AC5005B5493 /* CKTransactionalComponentDataSourceState+RemoveAll.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "CKTransactionalComponentDataSourceState+RemoveAll.mm"; sourceTree = "<group>"; };
-		4F01BA00AC05F2D6C3CC3FC0 /* libPods-Shared-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Shared-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		76BF6C547D4217D7E95E893E /* Pods-Shared-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shared-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shared-Tests/Pods-Shared-Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		95D62F05048EA9DB5D6CA57B /* libPods-Shared-TableViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Shared-TableViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9990F3D347750BE9FAC51F7C /* Pods-Shared-TableViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shared-TableViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shared-TableViewDemo/Pods-Shared-TableViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		A2A4C1441BEA176800FBE24C /* libPods-Shared-CKToolbox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Shared-CKToolbox.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB9A9741B1B595A395B30494 /* Pods-Shared-TableViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shared-TableViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shared-TableViewDemo/Pods-Shared-TableViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		544F33B8E61A3ABBD8A29FE9 /* libPods-Shared-TableViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Shared-TableViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6210354A40F4E9C7813F382F /* libPods-Shared-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Shared-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B0A6DED6266E9A79D306307 /* Pods-Shared-CKToolbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shared-CKToolbox.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shared-CKToolbox/Pods-Shared-CKToolbox.release.xcconfig"; sourceTree = "<group>"; };
+		BC8550D5AC9DD4B5AC2A4FAA /* Pods-Shared-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shared-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shared-Tests/Pods-Shared-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BDB0AB9F64E60E7AFA5CC6E2 /* Pods-Shared-TableViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shared-TableViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shared-TableViewDemo/Pods-Shared-TableViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C3546F09FE2E09FB0410635D /* Pods-Shared-TableViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shared-TableViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shared-TableViewDemo/Pods-Shared-TableViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		CE5714739D755D2D736ADF1E /* Pods-Shared-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shared-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shared-Tests/Pods-Shared-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F4F2C7CA75053391B5C19180 /* libPods-Shared-CKToolbox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Shared-CKToolbox.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18B5C32BFE51435F7DDE8B11 /* libPods-Shared-CKToolbox.a in Frameworks */,
+				13E67EB48A4337EAA78F265F /* libPods-Shared-CKToolbox.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,7 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91352F5ABEFDCC069B2DBA90 /* libPods-Shared-Tests.a in Frameworks */,
+				CA5C383B08AFB49BA02DCD46 /* libPods-Shared-Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,13 +135,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FB4ED68982774A4EAA6C072 /* libPods-Shared-TableViewDemo.a in Frameworks */,
+				7FA41F8BA8D97AEFEC686530 /* libPods-Shared-TableViewDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3031710D03E1B025C03FABA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4F2C7CA75053391B5C19180 /* libPods-Shared-CKToolbox.a */,
+				544F33B8E61A3ABBD8A29FE9 /* libPods-Shared-TableViewDemo.a */,
+				6210354A40F4E9C7813F382F /* libPods-Shared-Tests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4954B7FB1D241F5400C4F42A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				4954B8081D241FD800C4F42A /* CKTransactionalDataSourceInterface.h */,
+				49C9C86C1D253B770098FB53 /* CKCollectionViewTransactionalDataSource+AbstractInterface.h */,
+				49C9C86D1D253B770098FB53 /* CKCollectionViewTransactionalDataSource+AbstractInterface.mm */,
+				4954B8061D241FD800C4F42A /* CKTransactionalComponentDataSourceState+RemoveAll.h */,
+				4954B8071D241FD800C4F42A /* CKTransactionalComponentDataSourceState+RemoveAll.mm */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
 		495E8A501C51341200789C25 = {
 			isa = PBXGroup;
 			children = (
@@ -158,7 +173,7 @@
 				75244B7151770B5771E829CC /* Pods */,
 				495E8A791C51377000789C25 /* LICENSE */,
 				495E8A7A1C51377000789C25 /* README.md */,
-				D9C1A539B19B24EC2BB64811 /* Frameworks */,
+				3031710D03E1B025C03FABA9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -193,19 +208,6 @@
 			path = Tests;
 			sourceTree = "<group>";
 		};
-		4963DB0F1C5153A100875353 /* RemoveAll */ = {
-			isa = PBXGroup;
-			children = (
-				4963DB161C51561C00875353 /* CKTransactionalComponentDataSourceRemoveAll.h */,
-				4963DB101C51541B00875353 /* CKCollectionViewTransactionalDataSource+RemoveAll.h */,
-				4963DB111C51541B00875353 /* CKCollectionViewTransactionalDataSource+RemoveAll.mm */,
-				49EDB0DF1C516AC5005B5493 /* CKTransactionalComponentDataSourceState+RemoveAll.h */,
-				49EDB0E01C516AC5005B5493 /* CKTransactionalComponentDataSourceState+RemoveAll.mm */,
-			);
-			name = RemoveAll;
-			path = Modules/RemoveAll;
-			sourceTree = "<group>";
-		};
 		4963DB131C51558700875353 /* TableViewDataSource */ = {
 			isa = PBXGroup;
 			children = (
@@ -235,8 +237,6 @@
 		496F651C1C5143C800DD1E07 /* TableViewDataSource */ = {
 			isa = PBXGroup;
 			children = (
-				496F651D1C5143C800DD1E07 /* CKCollectionViewTransactionalDataSource+AbstractInterface.h */,
-				496F651E1C5143C800DD1E07 /* CKCollectionViewTransactionalDataSource+AbstractInterface.mm */,
 				496F651F1C5143C800DD1E07 /* CKTableViewDataSourceCell.h */,
 				496F65201C5143C800DD1E07 /* CKTableViewDataSourceCell.mm */,
 				496F65211C5143C800DD1E07 /* CKTableViewSupplementaryDataSource.h */,
@@ -244,9 +244,6 @@
 				496F65231C5143C800DD1E07 /* CKTableViewTransactionalDataSource.mm */,
 				496F65251C5143C800DD1E07 /* CKTableViewTransactionalDataSourceCellConfiguration.h */,
 				496F65261C5143C800DD1E07 /* CKTableViewTransactionalDataSourceCellConfiguration.mm */,
-				496F65271C5143C800DD1E07 /* CKTransactionalDataSourceInterface.h */,
-				49EDB0DC1C51696E005B5493 /* CKTableViewTransactionalDataSource+RemoveAll.h */,
-				49EDB0DD1C51696E005B5493 /* CKTableViewTransactionalDataSource+RemoveAll.mm */,
 				496F65281C5143C800DD1E07 /* Demo */,
 			);
 			name = TableViewDataSource;
@@ -324,9 +321,9 @@
 		496F65711C5149B900DD1E07 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				4954B7FB1D241F5400C4F42A /* Core */,
 				496F651C1C5143C800DD1E07 /* TableViewDataSource */,
 				495E8A651C5135E000789C25 /* ChangesetBuilder */,
-				4963DB0F1C5153A100875353 /* RemoveAll */,
 			);
 			name = Modules;
 			sourceTree = "<group>";
@@ -349,24 +346,14 @@
 			children = (
 				495E8A691C51360700789C25 /* Podfile */,
 				496F656A1C5146B200DD1E07 /* CKToolbox.podspec */,
-				181938D08FA64330EDF94D98 /* Pods-Shared-CKToolbox.debug.xcconfig */,
-				2819EE4033CF01D04CEC7A79 /* Pods-Shared-CKToolbox.release.xcconfig */,
-				9990F3D347750BE9FAC51F7C /* Pods-Shared-TableViewDemo.debug.xcconfig */,
-				BB9A9741B1B595A395B30494 /* Pods-Shared-TableViewDemo.release.xcconfig */,
-				76BF6C547D4217D7E95E893E /* Pods-Shared-Tests.debug.xcconfig */,
-				0AF4EF4569685375EDDF7A50 /* Pods-Shared-Tests.release.xcconfig */,
+				0B6D79A6980B08F97F85CC90 /* Pods-Shared-CKToolbox.debug.xcconfig */,
+				9B0A6DED6266E9A79D306307 /* Pods-Shared-CKToolbox.release.xcconfig */,
+				BDB0AB9F64E60E7AFA5CC6E2 /* Pods-Shared-TableViewDemo.debug.xcconfig */,
+				C3546F09FE2E09FB0410635D /* Pods-Shared-TableViewDemo.release.xcconfig */,
+				CE5714739D755D2D736ADF1E /* Pods-Shared-Tests.debug.xcconfig */,
+				BC8550D5AC9DD4B5AC2A4FAA /* Pods-Shared-Tests.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		D9C1A539B19B24EC2BB64811 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A2A4C1441BEA176800FBE24C /* libPods-Shared-CKToolbox.a */,
-				95D62F05048EA9DB5D6CA57B /* libPods-Shared-TableViewDemo.a */,
-				4F01BA00AC05F2D6C3CC3FC0 /* libPods-Shared-Tests.a */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -622,14 +609,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49EDB0E11C516AC5005B5493 /* CKTransactionalComponentDataSourceState+RemoveAll.mm in Sources */,
 				496F653F1C5143C800DD1E07 /* CKTableViewTransactionalDataSource.mm in Sources */,
-				4963DB121C51541B00875353 /* CKCollectionViewTransactionalDataSource+RemoveAll.mm in Sources */,
 				496F653E1C5143C800DD1E07 /* CKTableViewDataSourceCell.mm in Sources */,
 				496F65401C5143C800DD1E07 /* CKTableViewTransactionalDataSourceCellConfiguration.mm in Sources */,
 				495E8A681C5135E000789C25 /* CKCollectionViewDataSourceChangesetBuilder.mm in Sources */,
-				49EDB0DE1C51696E005B5493 /* CKTableViewTransactionalDataSource+RemoveAll.mm in Sources */,
-				496F653D1C5143C800DD1E07 /* CKCollectionViewTransactionalDataSource+AbstractInterface.mm in Sources */,
+				4954B80A1D241FD800C4F42A /* CKTransactionalComponentDataSourceState+RemoveAll.mm in Sources */,
+				49C9C86E1D253B770098FB53 /* CKCollectionViewTransactionalDataSource+AbstractInterface.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -767,7 +752,7 @@
 		};
 		495E8A631C51341200789C25 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 181938D08FA64330EDF94D98 /* Pods-Shared-CKToolbox.debug.xcconfig */;
+			baseConfigurationReference = 0B6D79A6980B08F97F85CC90 /* Pods-Shared-CKToolbox.debug.xcconfig */;
 			buildSettings = {
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -780,7 +765,7 @@
 		};
 		495E8A641C51341200789C25 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2819EE4033CF01D04CEC7A79 /* Pods-Shared-CKToolbox.release.xcconfig */;
+			baseConfigurationReference = 9B0A6DED6266E9A79D306307 /* Pods-Shared-CKToolbox.release.xcconfig */;
 			buildSettings = {
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -793,7 +778,7 @@
 		};
 		495E8A771C51361E00789C25 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76BF6C547D4217D7E95E893E /* Pods-Shared-Tests.debug.xcconfig */;
+			baseConfigurationReference = CE5714739D755D2D736ADF1E /* Pods-Shared-Tests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -804,7 +789,7 @@
 		};
 		495E8A781C51361E00789C25 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0AF4EF4569685375EDDF7A50 /* Pods-Shared-Tests.release.xcconfig */;
+			baseConfigurationReference = BC8550D5AC9DD4B5AC2A4FAA /* Pods-Shared-Tests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -815,7 +800,7 @@
 		};
 		496F65601C51442400DD1E07 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9990F3D347750BE9FAC51F7C /* Pods-Shared-TableViewDemo.debug.xcconfig */;
+			baseConfigurationReference = BDB0AB9F64E60E7AFA5CC6E2 /* Pods-Shared-TableViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Modules/TableViewDataSource/Demo/Info.plist;
@@ -827,7 +812,7 @@
 		};
 		496F65611C51442400DD1E07 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB9A9741B1B595A395B30494 /* Pods-Shared-TableViewDemo.release.xcconfig */;
+			baseConfigurationReference = C3546F09FE2E09FB0410635D /* Pods-Shared-TableViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Modules/TableViewDataSource/Demo/Info.plist;

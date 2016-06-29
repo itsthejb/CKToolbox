@@ -11,7 +11,7 @@ abstract_target :Shared do
   end
 
   target :Tests do
-    pod 'CKToolbox/All', :path => '.'
+    pod 'CKToolbox', :path => '.'
     pod 'OCMock', '~> 3.2.2'
     pod 'Specta', '~> 1.0.5'
     pod 'Expecta', '~> 1.0.5'

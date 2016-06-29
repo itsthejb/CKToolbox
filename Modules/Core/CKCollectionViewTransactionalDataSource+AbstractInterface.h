@@ -1,5 +1,5 @@
 //
-//  CKCollectionViewTransactionalDataSource+AbstractInterface.mm
+//  CKCollectionViewTransactionalDataSource+AbstractInterface.h
 //  CKToolbox
 //
 //  Created by Jonathan Crooke on 17/01/2016.
@@ -23,12 +23,15 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //  SOFTWARE.
 
-#import "CKCollectionViewTransactionalDataSource+AbstractInterface.h"
+#import "CKTransactionalDataSourceInterface.h"
+#import <ComponentKit/CKCollectionViewTransactionalDataSource.h>
 
-@implementation CKCollectionViewTransactionalDataSource (AbstractInterface)
-
-- (UIView *)view {
-  return self.collectionView;
-}
-
+/**
+ Provides protocol compliance for CKCollectionViewTransactionalDataSource.
+ Mostly nothing to see here, since CKTransactionalDataSourceInterface just abstracts its
+ interface already.
+ */
+@interface CKCollectionViewTransactionalDataSource (AbstractInterface) <CKTransactionalDataSourceInterface>
+@property (readonly, nonatomic, strong) UICollectionView *view;
+- (CKTransactionalComponentDataSourceChangeset*)removeAllChangeset;
 @end
