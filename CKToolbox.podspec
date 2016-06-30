@@ -20,9 +20,11 @@ Pod::Spec.new do |s|
 
   s.subspec 'ChangesetBuilder' do |sp|
     sp.source_files = 'Modules/ChangesetBuilder/*.{h,m,mm}'
+    sp.dependency 'CKToolbox/Core'
   end
 
   s.subspec 'TableViewDataSource' do |sp|
     sp.source_files = 'Modules/TableViewDataSource/*.{h,m,mm}'
+    sp.dependency 'CKToolbox/Core'
   end
 end
