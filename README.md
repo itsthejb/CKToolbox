@@ -6,7 +6,7 @@
 
 # [CKToolbox](http://itsthejb.github.io/CKToolbox/)
 
-A set of helpers and features for working with [Facebook ComponentKit](http://componentkit.org/). This library, when installed via [Cocoapods](https://cocoapods.org/), is modular. It currently has the following modules:
+A set of helpers and features for working with [Facebook ComponentKit](http://componentkit.org/). This library, when installed via [CocoaPods](https://cocoapods.org/), is modular. It currently has the following modules:
 
 1. [CKTableViewTransactionalDataSource](#CKTableViewTransactionalDataSource)
 2. [CKCollectionViewDataSourceChangesetBuilder](#CKCollectionViewDataSourceChangesetBuilder)
@@ -109,6 +109,19 @@ The following two macros aim to compensate for the lack of default arguments in 
 ## <a id="CKTransactionalComponentDataSourceRemoveAll"></a> 3. CKTransactionalComponentDataSourceRemoveAll
 
 ComponentKit directly supports inserting content, and explicitly deleting items and sections, but does not directly support easily wiping the data source's complete content. The `CKTransactionalComponentDataSourceRemoveAll` provides the method `- (CKTransactionalComponentDataSourceChangeset*)removeAllChangeset` which returns a change set that can be used to remove all items and sections currently present in the data source. Implementations are provided for `CKTransactionalComponentDataSourceState` and `CKCollectionViewTransactionalDataSource`. Additionally, [CKTableViewTransactionalDataSource](##2. CKTableViewTransactionalDataSource) implements this protocol.
+
+---
+
+# ChangeLog
+
+## v0.2.0
+
+* `RemoveAll` module merged into the new "Core" module. This makes features considerably more convenient to use.
+* [Fixed retain cycle in supplementary view property](https://github.com/itsthejb/CKToolbox/pull/6). Thanks to [@Leavez](https://github.com/leavez)
+
+## v0.1.0
+
+* Initial release.
 
 ---
 

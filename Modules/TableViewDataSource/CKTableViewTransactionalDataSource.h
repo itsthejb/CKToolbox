@@ -87,6 +87,8 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (readonly, nonatomic, copy) CKTableViewTransactionalDataSourceCellConfiguration *cellConfiguration;
 
+- (CKTransactionalComponentDataSourceChangeset*)removeAllChangeset;
+
 @end
 
 NS_ASSUME_NONNULL_END

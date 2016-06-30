@@ -31,7 +31,7 @@
 #import <ComponentKit/CKCollectionViewDataSourceCell.h>
 #import <ComponentKit/CKTransactionalComponentDataSourceChangesetInternal.h>
 
-#import <CKToolbox/CKCollectionViewTransactionalDataSource+RemoveAll.h>
+#import <CKToolbox/CKCollectionViewTransactionalDataSource+AbstractInterface.h>
 #import <CKToolbox/CKTableViewDataSourceCell.h>
 
 @interface CKCollectionViewTransactionalDataSource () <UICollectionViewDataSource>

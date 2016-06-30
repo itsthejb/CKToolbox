@@ -1,21 +1,22 @@
 platform :ios, '7.0'
+source 'https://github.com/CocoaPods/Specs.git'
 
-CK_VERS='~> 0.0'.freeze
+abstract_target :Shared do
+  pod 'ComponentKit', '0.14'
 
-target :CKToolbox do
-  pod 'ComponentKit', CK_VERS
-end
+  target :CKToolbox
 
-target :TableViewDemo do
-  pod 'CKToolbox/TableViewDataSource', :path => '.'
-end
+  target :TableViewDemo do
+    pod 'CKToolbox/TableViewDataSource', :path => '.'
+  end
 
-target :Tests do
-  pod 'CKToolbox/All', :path => '.'
-  pod 'OCMock', '~> 3.2.2'
-  pod 'Specta', '~> 1.0.5'
-  pod 'Expecta', '~> 1.0.5'
-  pod 'ComponentSnapshotTestCase', :podspec => 'Support/ComponentSnapshotTestCase.podspec'
+  target :Tests do
+    pod 'CKToolbox', :path => '.'
+    pod 'OCMock', '~> 3.2.2'
+    pod 'Specta', '~> 1.0.5'
+    pod 'Expecta', '~> 1.0.5'
+    pod 'ComponentSnapshotTestCase', :podspec => 'Support/ComponentSnapshotTestCase.podspec'
+  end
 end
 
 inhibit_all_warnings!

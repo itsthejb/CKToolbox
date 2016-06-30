@@ -27,6 +27,7 @@
 #import "CKTableViewDataSourceCell.h"
 #import "CKTableViewSupplementaryDataSource.h"
 #import "CKTableViewTransactionalDataSourceCellConfiguration.h"
+#import "CKTransactionalComponentDataSourceState+RemoveAll.h"
 #import <ComponentKit/CKTransactionalComponentDataSource.h>
 #import <ComponentKit/CKComponentDataSourceAttachController.h>
 #import <ComponentKit/CKTransactionalComponentDataSourceState.h>
@@ -44,7 +45,7 @@ CKTransactionalComponentDataSourceListener
 >
 {
   CKTransactionalComponentDataSource *_componentDataSource;
-  NSObject <CKTableViewSupplementaryDataSource> *_supplementaryDataSource;
+  __weak NSObject <CKTableViewSupplementaryDataSource> *_supplementaryDataSource;
   CKTransactionalComponentDataSourceState *_currentState;
   CKComponentDataSourceAttachController *_attachController;
   CKTableViewTransactionalDataSourceCellConfiguration *_defaultCellConfiguration;
@@ -299,6 +300,13 @@ static void _attachToCell(CKTableViewDataSourceCell *cell,
   if ([_supplementaryDataSource respondsToSelector:_cmd]) {
     return [_supplementaryDataSource tableView:tableView moveRowAtIndexPath:sourceIndexPath toIndexPath:destinationIndexPath];
   }
+}
+
+#pragma mark - RemoveAll
+
+- (CKTransactionalComponentDataSourceChangeset*)removeAllChangeset
+{
+    return [[self valueForKey:@"_currentState"] removeAllChangeset];
 }
 
 @end
