@@ -44,7 +44,7 @@ CKTransactionalComponentDataSourceListener
 >
 {
   CKTransactionalComponentDataSource *_componentDataSource;
-  NSObject <CKTableViewSupplementaryDataSource> *_supplementaryDataSource;
+  __weak NSObject <CKTableViewSupplementaryDataSource> *_supplementaryDataSource;
   CKTransactionalComponentDataSourceState *_currentState;
   CKComponentDataSourceAttachController *_attachController;
   CKTableViewTransactionalDataSourceCellConfiguration *_defaultCellConfiguration;
