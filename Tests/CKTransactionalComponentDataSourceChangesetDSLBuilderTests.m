@@ -25,7 +25,7 @@
 
 #import <XCTest/XCTest.h>
 
-#import "CKCollectionViewDataSourceChangesetBuilder.h"
+#import <CKToolbox/CKCollectionViewDataSourceChangesetBuilder.h>
 #import <ComponentKit/CKTransactionalComponentDataSourceChangeset.h>
 #import <ComponentKit/CKTransactionalComponentDataSourceChangesetInternal.h>
 

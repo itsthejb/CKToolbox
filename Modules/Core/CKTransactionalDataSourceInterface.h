@@ -24,9 +24,10 @@
 //  SOFTWARE.
 
 #import <UIKit/UIKit.h>
-#import <ComponentKit/CKTransactionalComponentDataSourceChangeset.h>
-#import <ComponentKit/CKTransactionalComponentDataSourceConfiguration.h>
-#import <ComponentKit/CKUpdateMode.h>
+#import "CKUpdateMode.h"
+
+@class CKTransactionalComponentDataSourceChangeset;
+@class CKTransactionalComponentDataSourceConfiguration;
 
 /**
  Abstract interface for the essential parts of both CKCollectionViewTransactionalDataSource

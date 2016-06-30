@@ -28,9 +28,9 @@
 #import "AnimalComponent.h"
 #import "AnimalCellConfiguration.h"
 #import <ComponentKit/ComponentKit.h>
-#import "CKTableViewTransactionalDataSource.h"
-#import "CKTableViewSupplementaryDataSource.h"
-#import "CKTableViewTransactionalDataSourceCellConfiguration.h"
+#import <CKToolbox/CKTableViewTransactionalDataSource.h>
+#import <CKToolbox/CKTableViewSupplementaryDataSource.h>
+#import <CKToolbox/CKTableViewTransactionalDataSourceCellConfiguration.h>
 
 @interface AnimalInfoTableViewController () <CKComponentProvider, CKTableViewSupplementaryDataSource>
 @property (nonatomic, strong) CKTableViewTransactionalDataSource *dataSource;

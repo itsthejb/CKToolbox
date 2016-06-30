@@ -10,8 +10,15 @@ Pod::Spec.new do |s|
   s.license       = { :type => 'MIT', :file => 'LICENSE' }
   s.authors       = { 'Jonathan Crooke' => 'jon.crooke@gmail.com' }
   s.source        = { :git => 'https://github.com/itsthejb/CKToolbox.git', :tag => "v#{s.version.to_s}" }
+
   s.ios.deployment_target = '7.0'
   s.frameworks    = 'UIKit'
+  s.library = 'c++'
+  s.xcconfig = {
+    'CLANG_CXX_LANGUAGE_STANDARD' => 'c++11',
+    'CLANG_CXX_LIBRARY' => 'libc++',
+  }
+
   s.default_subspecs = 'Core', 'ChangesetBuilder', 'TableViewDataSource'
 
   s.subspec 'Core' do |sp|
@@ -20,9 +27,11 @@ Pod::Spec.new do |s|
 
   s.subspec 'ChangesetBuilder' do |sp|
     sp.source_files = 'Modules/ChangesetBuilder/*.{h,m,mm}'
+    sp.dependency 'CKToolbox/Core'
   end
 
   s.subspec 'TableViewDataSource' do |sp|
     sp.source_files = 'Modules/TableViewDataSource/*.{h,m,mm}'
+    sp.dependency 'CKToolbox/Core'
   end
 end

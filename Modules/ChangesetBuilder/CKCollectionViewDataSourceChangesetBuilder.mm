@@ -23,8 +23,8 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //  SOFTWARE.
 
-#import "CKCollectionViewDataSourceChangesetBuilder.h"
-#import "CKTransactionalComponentDataSourceChangesetInternal.h"
+#import <CKToolbox/CKCollectionViewDataSourceChangesetBuilder.h>
+#import <ComponentKit/CKTransactionalComponentDataSourceChangesetInternal.h>
 
 namespace CKChangesetBuilder {
   namespace Verb {

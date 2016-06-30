@@ -23,8 +23,8 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //  SOFTWARE.
 
-#import "CKTableViewDataSourceCell.h"
-#import "CKTableViewTransactionalDataSourceCellConfiguration.h"
+#import <CKToolbox/CKTableViewDataSourceCell.h>
+#import <CKToolbox/CKTableViewTransactionalDataSourceCellConfiguration.h>
 #import <ComponentKit/CKComponentRootView.h>
 
 @implementation CKTableViewDataSourceCell

@@ -24,7 +24,8 @@
 //  SOFTWARE.
 
 #import <UIKit/UIKit.h>
-#import <ComponentKit/CKTransactionalComponentDataSourceChangeset.h>
+
+@class CKTransactionalComponentDataSourceChangeset;
 
 /**
  Block-based DSL changeset builder.

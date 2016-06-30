@@ -24,7 +24,8 @@
 //  SOFTWARE.
 
 #import <ComponentKit/CKTransactionalComponentDataSourceState.h>
-#import <ComponentKit/CKTransactionalComponentDataSourceChangeset.h>
+
+@class CKTransactionalComponentDataSourceChangeset;
 
 /**
  RemoveAll for CKTransactionalComponentDataSourceState. 
