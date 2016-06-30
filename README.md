@@ -112,6 +112,19 @@ ComponentKit directly supports inserting content, and explicitly deleting items 
 
 ---
 
+# ChangeLog
+
+## v0.2.0
+
+* `RemoveAll` module merged into the new "Core" module. This makes features considerably more convenient to use.
+* [Fixed retain cycle in supplementary view property](https://github.com/itsthejb/CKToolbox/pull/6). Thanks to [@Leavez](https://github.com/leavez)
+
+## v0.1.0
+
+* Initial release.
+
+---
+
 Have fun!
 ---------
 
