@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   # Versions here
-  s.version                  = "0.1.0"
+  s.version                  = "0.2.0"
   s.dependency 'ComponentKit', '~> 0.14'
 
   s.name          = 'CKToolbox'
