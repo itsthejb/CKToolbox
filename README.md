@@ -6,7 +6,7 @@
 
 # [CKToolbox](http://itsthejb.github.io/CKToolbox/)
 
-A set of helpers and features for working with [Facebook ComponentKit](http://componentkit.org/). This library, when installed via [Cocoapods](https://cocoapods.org/), is modular. It currently has the following modules:
+A set of helpers and features for working with [Facebook ComponentKit](http://componentkit.org/). This library, when installed via [CocoaPods](https://cocoapods.org/), is modular. It currently has the following modules:
 
 1. [CKTableViewTransactionalDataSource](#CKTableViewTransactionalDataSource)
 2. [CKCollectionViewDataSourceChangesetBuilder](#CKCollectionViewDataSourceChangesetBuilder)
