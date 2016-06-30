@@ -23,7 +23,7 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //  SOFTWARE.
 
-#import "CKTransactionalDataSourceInterface.h"
+#import <CKToolbox/CKTransactionalDataSourceInterface.h>
 #import <ComponentKit/CKCollectionViewTransactionalDataSource.h>
 
 /**

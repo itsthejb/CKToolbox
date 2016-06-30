@@ -23,7 +23,7 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //  SOFTWARE.
 
-#import "CKTransactionalComponentDataSourceState+RemoveAll.h"
+#import <CKToolbox/CKTransactionalComponentDataSourceState+RemoveAll.h>
 #import <ComponentKit/CKTransactionalComponentDataSourceChangeset.h>
 #import <UIKit/UIKit.h>
 

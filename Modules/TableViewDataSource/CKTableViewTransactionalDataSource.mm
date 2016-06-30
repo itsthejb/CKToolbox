@@ -23,11 +23,11 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //  SOFTWARE.
 
-#import "CKTableViewTransactionalDataSource.h"
-#import "CKTableViewDataSourceCell.h"
-#import "CKTableViewSupplementaryDataSource.h"
-#import "CKTableViewTransactionalDataSourceCellConfiguration.h"
-#import "CKTransactionalComponentDataSourceState+RemoveAll.h"
+#import <CKToolbox/CKTableViewTransactionalDataSource.h>
+#import <CKToolbox/CKTableViewDataSourceCell.h>
+#import <CKToolbox/CKTableViewSupplementaryDataSource.h>
+#import <CKToolbox/CKTableViewTransactionalDataSourceCellConfiguration.h>
+#import <CKToolbox/CKTransactionalComponentDataSourceState+RemoveAll.h>
 #import <ComponentKit/CKTransactionalComponentDataSource.h>
 #import <ComponentKit/CKComponentDataSourceAttachController.h>
 #import <ComponentKit/CKTransactionalComponentDataSourceState.h>

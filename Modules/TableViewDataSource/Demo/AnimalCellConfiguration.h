@@ -23,7 +23,7 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //  SOFTWARE.
 
-#import "CKTableViewTransactionalDataSourceCellConfiguration.h"
+#import <CKToolbox/CKTableViewTransactionalDataSourceCellConfiguration.h>
 
 @interface AnimalCellConfiguration : CKTableViewTransactionalDataSourceCellConfiguration
 @end
