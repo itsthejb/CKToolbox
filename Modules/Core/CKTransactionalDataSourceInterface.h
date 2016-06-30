@@ -68,6 +68,12 @@
                        mode:(CKUpdateMode)mode
                    userInfo:(NSDictionary *)userInfo;
 
+/**
+ Simply returns a changeset that can be applied to remove
+ all content for the current state of a data source.
+ */
+- (CKTransactionalComponentDataSourceChangeset*)removeAllChangeset;
+
 /** Represents the underlying UIKit "collection" view, ie. a UICollectionView or UITableView */
 @property (readonly, nonatomic, strong) UIView *view;
 

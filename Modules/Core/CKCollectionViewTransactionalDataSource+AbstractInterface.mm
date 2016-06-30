@@ -1,5 +1,5 @@
 //
-//  CKTransactionalComponentDataSourceRemoveAll.h
+//  CKCollectionViewTransactionalDataSource+AbstractInterface.mm
 //  CKToolbox
 //
 //  Created by Jonathan Crooke on 17/01/2016.
@@ -23,14 +23,18 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //  SOFTWARE.
 
-#import <UIKit/UIKit.h>
+#import "CKCollectionViewTransactionalDataSource+AbstractInterface.h"
+#import "CKTransactionalComponentDataSourceState+RemoveAll.h"
 
-@class CKTransactionalComponentDataSourceChangeset;
+@implementation CKCollectionViewTransactionalDataSource (AbstractInterface)
 
-/**
- Simply returns a changeset that can be applied to remove
- all content for the current state of a data source.
- */
-@protocol CKTransactionalComponentDataSourceRemoveAll <NSObject>
-- (CKTransactionalComponentDataSourceChangeset*)removeAllChangeset;
+- (UIView *)view {
+  return self.collectionView;
+}
+
+- (CKTransactionalComponentDataSourceChangeset*)removeAllChangeset
+{
+    return [[self valueForKey:@"_currentState"] removeAllChangeset];
+}
+
 @end

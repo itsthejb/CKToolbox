@@ -12,11 +12,10 @@ Pod::Spec.new do |s|
   s.source        = { :git => 'https://github.com/itsthejb/CKToolbox.git', :tag => "v#{s.version.to_s}" }
   s.ios.deployment_target = '7.0'
   s.frameworks    = 'UIKit'
+  s.default_subspecs = 'Core', 'ChangesetBuilder', 'TableViewDataSource'
 
-  s.subspec 'All' do |sp|
-    sp.dependency 'CKToolbox/ChangesetBuilder'
-    sp.dependency 'CKToolbox/TableViewDataSource'
-    sp.dependency 'CKToolbox/RemoveAll'
+  s.subspec 'Core' do |sp|
+    sp.source_files = 'Modules/Core/*.{h,m,mm}'
   end
 
   s.subspec 'ChangesetBuilder' do |sp|
@@ -25,10 +24,5 @@ Pod::Spec.new do |s|
 
   s.subspec 'TableViewDataSource' do |sp|
     sp.source_files = 'Modules/TableViewDataSource/*.{h,m,mm}'
-    sp.dependency 'CKToolbox/RemoveAll'
-  end
-
-  s.subspec 'RemoveAll' do |sp|
-    sp.source_files = 'Modules/RemoveAll/*.{h,m,mm}'
   end
 end
