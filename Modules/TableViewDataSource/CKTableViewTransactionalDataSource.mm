@@ -44,12 +44,13 @@ CKTransactionalComponentDataSourceListener
 >
 {
   CKTransactionalComponentDataSource *_componentDataSource;
-  NSObject <CKTableViewSupplementaryDataSource> *_supplementaryDataSource;
   CKTransactionalComponentDataSourceState *_currentState;
   CKComponentDataSourceAttachController *_attachController;
   CKTableViewTransactionalDataSourceCellConfiguration *_defaultCellConfiguration;
   CKTableViewTransactionalDataSourceCellConfiguration *_cellConfiguration;
 }
+@property (nonatomic, weak) NSObject <CKTableViewSupplementaryDataSource> *supplementaryDataSource;
+
 @end
 
 
