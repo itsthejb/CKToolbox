@@ -55,6 +55,7 @@
 		491565C41C5E1F8900DB7304 /* AnimalComponentController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AnimalComponentController.mm; sourceTree = "<group>"; };
 		491565C71C5E204300DB7304 /* AnimalComponentResponder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimalComponentResponder.h; sourceTree = "<group>"; };
 		4936ABCF1C67CF8A003704EB /* Sumatran-Tiger-Hero.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Sumatran-Tiger-Hero.jpg"; path = "Modules/TableViewDataSource/Demo/Images.xcassets/Images/Sumatran-Tiger-Hero.imageset/Sumatran-Tiger-Hero.jpg"; sourceTree = SOURCE_ROOT; };
+		493B69FB1D759CC500C2BD9B /* CKToolbox.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = CKToolbox.podspec; sourceTree = "<group>"; };
 		4954B8061D241FD800C4F42A /* CKTransactionalComponentDataSourceState+RemoveAll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CKTransactionalComponentDataSourceState+RemoveAll.h"; path = "Modules/Core/CKTransactionalComponentDataSourceState+RemoveAll.h"; sourceTree = "<group>"; };
 		4954B8071D241FD800C4F42A /* CKTransactionalComponentDataSourceState+RemoveAll.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "CKTransactionalComponentDataSourceState+RemoveAll.mm"; path = "Modules/Core/CKTransactionalComponentDataSourceState+RemoveAll.mm"; sourceTree = "<group>"; };
 		4954B8081D241FD800C4F42A /* CKTransactionalDataSourceInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CKTransactionalDataSourceInterface.h; path = Modules/Core/CKTransactionalDataSourceInterface.h; sourceTree = "<group>"; };
@@ -173,6 +174,7 @@
 				75244B7151770B5771E829CC /* Pods */,
 				3031710D03E1B025C03FABA9 /* Frameworks */,
 				495E8A791C51377000789C25 /* LICENSE */,
+				493B69FB1D759CC500C2BD9B /* CKToolbox.podspec */,
 				495E8A7A1C51377000789C25 /* README.md */,
 			);
 			sourceTree = "<group>";
