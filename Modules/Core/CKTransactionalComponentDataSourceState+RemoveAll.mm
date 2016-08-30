@@ -32,17 +32,14 @@
 - (CKTransactionalComponentDataSourceChangeset*)removeAllChangeset
 {
   NSMutableSet *indexPaths = [NSMutableSet set];
-  NSMutableIndexSet *sections = [NSMutableIndexSet indexSet];
-
   [self enumerateObjectsUsingBlock:^(CKTransactionalComponentDataSourceItem *_, NSIndexPath *indexPath, BOOL *stop) {
     [indexPaths addObject:indexPath];
-    [sections addIndex:indexPath.section];
   }];
 
   return [[CKTransactionalComponentDataSourceChangeset alloc]
           initWithUpdatedItems:nil
           removedItems:indexPaths
-          removedSections:sections
+          removedSections:[NSIndexSet indexSetWithIndexesInRange:NSMakeRange(0, self.numberOfSections)]
           movedItems:nil
           insertedSections:nil
           insertedItems:nil];

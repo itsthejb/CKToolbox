@@ -68,7 +68,14 @@
     [invocation getArgument:&block atIndex:2];
     block();
   }] performBatchUpdates:[OCMArg any] completion:[OCMArg any]];
+}
 
++ (CKComponent *)componentForModel:(NSString*)model context:(id<NSObject>)context {
+  return [CKTableViewTransactionalDataSourceTestComponent newWithIdentifier:@"TestComponent"];
+}
+
+- (void)testGeneratedChangesetShouldMatchSourceChangeset
+{
   self.changeset =
   [[CKTransactionalComponentDataSourceChangeset alloc]
    initWithUpdatedItems:nil
@@ -86,14 +93,7 @@
                    }];
 
   [self.dataSource applyChangeset:self.changeset mode:CKUpdateModeSynchronous userInfo:nil];
-}
 
-+ (CKComponent *)componentForModel:(NSString*)model context:(id<NSObject>)context {
-  return [CKTableViewTransactionalDataSourceTestComponent newWithIdentifier:@"TestComponent"];
-}
-
-- (void)testGeneratedChangesetShouldMatchSourceChangeset
-{
   CKTransactionalComponentDataSourceChangeset *changeset = self.dataSource.removeAllChangeset;
   
   XCTAssertEqualObjects(changeset.removedItems, [NSSet setWithArray:self.changeset.insertedItems.allKeys]);
@@ -104,7 +104,31 @@
   XCTAssertEqual(changeset.insertedSections.count, 0);
   XCTAssertEqual(changeset.insertedItems.count, 0);
   XCTAssertNil(changeset.userInfo);
+}
 
+- (void)testRemoveAllChangesetWithEmptySectionsShouldIncludeThoseSections
+{
+  self.changeset =
+  [[CKTransactionalComponentDataSourceChangeset alloc]
+   initWithUpdatedItems:nil
+   removedItems:nil
+   removedSections:nil
+   movedItems:nil
+   insertedSections:[NSIndexSet indexSetWithIndexesInRange:NSMakeRange(0, 3)]
+   insertedItems:nil];
+
+  [self.dataSource applyChangeset:self.changeset mode:CKUpdateModeSynchronous userInfo:nil];
+
+  CKTransactionalComponentDataSourceChangeset *changeset = self.dataSource.removeAllChangeset;
+
+  XCTAssertEqualObjects(changeset.removedSections, self.changeset.insertedSections);
+
+  XCTAssertEqual(changeset.removedItems.count, 0);
+  XCTAssertEqual(changeset.updatedItems.count, 0);
+  XCTAssertEqual(changeset.movedItems.count, 0);
+  XCTAssertEqual(changeset.insertedSections.count, 0);
+  XCTAssertEqual(changeset.insertedItems.count, 0);
+  XCTAssertNil(changeset.userInfo);
 }
 
 @end
