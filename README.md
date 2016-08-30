@@ -114,6 +114,10 @@ ComponentKit directly supports inserting content, and explicitly deleting items 
 
 # ChangeLog
 
+## v0.2.1
+
+* Very important [empty section removal bug](https://github.com/itsthejb/CKToolbox/pull/10) fixed by [Erik Stromlund](https://github.com/estromlund).
+
 ## v0.2.0
 
 * `RemoveAll` module merged into the new "Core" module. This makes features considerably more convenient to use.
